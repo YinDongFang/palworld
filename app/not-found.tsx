@@ -2,12 +2,8 @@ import { Boundary } from '#/ui/boundary';
 
 export default function NotFound() {
   return (
-    <Boundary labels={['not-found.tsx']} color="pink">
-      <div className="text-vercel-pink space-y-4">
-        <h2 className="text-lg font-bold">Not Found</h2>
-
-        <p className="text-sm">Could not find requested resource</p>
-      </div>
-    </Boundary>
+    <div className="text-vercel-pink mt-20 space-y-4 text-center">
+      <h2 className="text-lg font-bold">努力开发中...</h2>
+    </div>
   );
 }
