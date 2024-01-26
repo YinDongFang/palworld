@@ -9,12 +9,12 @@ export function Filters(props: FiltersProps) {
 
   const all = { label: '全部', value: 'ALL' };
 
-  const toggle = (option) => {
+  const toggle = (option: any) => {
     if (value.includes(option.value)) {
       onChange(value.filter((item) => item !== option.value));
     } else {
       if (option.value === 'ALL') {
-        onChange('ALL');
+        onChange(['ALL']);
       } else {
         onChange([...value, option.value].filter((item) => item !== 'ALL'));
       }
