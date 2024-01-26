@@ -1,9 +1,7 @@
 'use client';
 import { useState } from 'react';
-import { ExternalLink } from '#/ui/external-link';
 import { PalItem } from '#/ui/pal-item';
 import { PalsFilters } from '#/ui/pals-filters';
-import data from '#/database/pals.json';
 
 export function PalList(props: { pals: Pal[]; onSelect?: (pal: Pal) => void }) {
   const { pals, onSelect } = props;

@@ -41,7 +41,7 @@ export function PalsFilters(props: PalsFiltersProps) {
       .filter((pal) => {
         return (
           selectedWorks.includes('ALL') ||
-          selectedWorks.some((w) => pal.work[w])
+          selectedWorks.some((w) => pal.works.some(work => work.type === w))
         );
       });
     onChange(result);

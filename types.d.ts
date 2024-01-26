@@ -3,7 +3,7 @@ declare interface Pal {
   name: string;
   attr: string[];
   partSkill: string;
-  work: Record<string, number>;
+  works: {type:string,level:number}[];
   eat: number;
   items: string[];
 }
