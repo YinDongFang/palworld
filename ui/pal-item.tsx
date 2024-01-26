@@ -79,7 +79,7 @@ function DropItems({ items }: { items: string[] }) {
 
 export function PalItem(props: PalItemProps) {
   const { pal, onClick } = props;
-  const { code, name, attr, work, eat, items } = pal;
+  const { code, name, attr, works, eat, items } = pal;
 
   const ref = useRef(null);
   const [inViewport] = useInViewport(ref);
@@ -107,8 +107,8 @@ export function PalItem(props: PalItemProps) {
             </div>
           </div>
           <div className="flex flex-wrap gap-x-4 gap-y-0.5">
-            {Object.entries(work).map(([name, level]) => (
-              <WorkItem name={name} level={level} />
+            {works.map(({type, level}) => (
+              <WorkItem name={type} level={level} />
             ))}
           </div>
           <BreedCount count={eat} />
