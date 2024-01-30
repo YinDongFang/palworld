@@ -9,6 +9,10 @@ export const router: Item[] = [
     slug: 'pals',
   },
   {
+    name: '帕鲁地图',
+    slug: 'map',
+  },
+  {
     name: '配种表',
     slug: 'breed',
   },

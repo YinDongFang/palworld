@@ -1,3369 +1,3317 @@
 [
   {
-    "code": "001",
+    "attack": { "hp": 70, "melee": 70, "shot": 70, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 40,
+      "running": 400,
+      "mounted": null,
+      "transporting": 160
+    },
+    "code": "1",
     "name": "棉悠悠",
-    "attr": [
-      "无"
-    ],
-    "partSkill": "茸茸盾牌",
-    "eat": 2,
-    "items": [
-      "羊毛",
-      "棉悠悠的羊肉"
-    ],
+    "type": ["无"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 1
-      },
-      {
-        "type": "牧场",
-        "level": 1
-      }
-    ]
+      { "type": "手工", "level": 1 },
+      { "type": "搬运", "level": 1 },
+      { "type": "牧场", "level": 1 }
+    ],
+    "food": 2,
+    "breedPower": 1470,
+    "price": 1000,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "lamball"
   },
   {
-    "code": "002",
+    "attack": { "hp": 70, "melee": 70, "shot": 70, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 60,
+      "running": 400,
+      "mounted": null,
+      "transporting": 160
+    },
+    "code": "2",
     "name": "捣蛋猫",
-    "attr": [
-      "无"
-    ],
-    "partSkill": "跟猫借手手",
-    "eat": 2,
-    "items": [
-      "红色野莓"
-    ],
+    "type": ["无"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 1
-      },
-      {
-        "type": "采集",
-        "level": 1
-      },
-      {
-        "type": "采矿",
-        "level": 1
-      }
-    ]
+      { "type": "手工", "level": 1 },
+      { "type": "采集", "level": 1 },
+      { "type": "采矿", "level": 1 },
+      { "type": "搬运", "level": 1 }
+    ],
+    "food": 2,
+    "breedPower": 1460,
+    "price": 1000,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "cattiva"
   },
   {
-    "code": "003",
+    "attack": { "hp": 60, "melee": 70, "shot": 60, "defence": 60 },
+    "speed": {
+      "stamina": 100,
+      "walking": 50,
+      "running": 375,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "3",
     "name": "皮皮鸡",
-    "attr": [
-      "无"
-    ],
-    "partSkill": "产蛋",
-    "eat": 1,
-    "items": [
-      "蛋",
-      "皮皮鸡的鸡肉"
-    ],
+    "type": ["无"],
+    "night": false,
     "works": [
-      {
-        "type": "采集",
-        "level": 1
-      },
-      {
-        "type": "牧场",
-        "level": 1
-      }
-    ]
+      { "type": "采集", "level": 1 },
+      { "type": "牧场", "level": 1 }
+    ],
+    "food": 1,
+    "breedPower": 1500,
+    "price": 1000,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "chikipi"
   },
   {
-    "code": "004",
+    "attack": { "hp": 75, "melee": 70, "shot": 70, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 40,
+      "running": 400,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "4",
     "name": "翠叶鼠",
-    "attr": [
-      "草"
-    ],
-    "partSkill": "翠叶鼠出击",
-    "eat": 1,
-    "items": [
-      "野莓种子",
-      "低品质药品"
-    ],
+    "type": ["草"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "采集",
-        "level": 1
-      },
-      {
-        "type": "伐木",
-        "level": 1
-      },
-      {
-        "type": "播种",
-        "level": 1
-      },
-      {
-        "type": "制药",
-        "level": 1
-      }
-    ]
+      { "type": "播种", "level": 1 },
+      { "type": "手工", "level": 1 },
+      { "type": "采集", "level": 1 },
+      { "type": "伐木", "level": 1 },
+      { "type": "制药", "level": 1 }
+    ],
+    "food": 1,
+    "breedPower": 1430,
+    "price": 1010,
+    "captureMulti": 0,
+    "malePercent": 50,
+    "en_name": "lifmunk"
   },
   {
-    "code": "005",
+    "attack": { "hp": 65, "melee": 70, "shot": 75, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 80,
+      "running": 400,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "5",
     "name": "火绒狐",
-    "attr": [
-      "火"
-    ],
-    "partSkill": "抱抱火焰",
-    "eat": 2,
-    "items": [
-      "皮革",
-      "喷火器官"
-    ],
-    "works": [
-      {
-        "type": "生火",
-        "level": 1
-      }
-    ]
+    "type": ["火"],
+    "night": false,
+    "works": [{ "type": "生火", "level": 1 }],
+    "food": 2,
+    "breedPower": 1400,
+    "price": 1040,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "foxparks"
   },
   {
-    "code": "006",
+    "attack": { "hp": 60, "melee": 80, "shot": 80, "defence": 60 },
+    "speed": {
+      "stamina": 100,
+      "walking": 105,
+      "running": 300,
+      "mounted": null,
+      "transporting": 202
+    },
+    "code": "6",
     "name": "冲浪鸭",
-    "attr": [
-      "水"
-    ],
-    "partSkill": "乘风破浪",
-    "eat": 2,
-    "items": [
-      "皮革",
-      "帕鲁的体液"
-    ],
+    "type": ["水"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 1
-      },
-      {
-        "type": "浇水",
-        "level": 1
-      }
-    ]
+      { "type": "浇水", "level": 1 },
+      { "type": "手工", "level": 1 },
+      { "type": "搬运", "level": 1 }
+    ],
+    "food": 2,
+    "breedPower": 1330,
+    "price": 1120,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "fuack"
   },
   {
-    "code": "007",
+    "attack": { "hp": 60, "melee": 60, "shot": 75, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 80,
+      "running": 350,
+      "mounted": null,
+      "transporting": 270
+    },
+    "code": "7",
     "name": "伏特喵",
-    "attr": [
-      "雷"
-    ],
-    "partSkill": "静电",
-    "eat": 2,
-    "items": [
-      "发电器官"
-    ],
+    "type": ["雷"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 1
-      },
-      {
-        "type": "发电",
-        "level": 1
-      }
-    ]
+      { "type": "发电", "level": 1 },
+      { "type": "手工", "level": 1 },
+      { "type": "搬运", "level": 1 }
+    ],
+    "food": 2,
+    "breedPower": 1410,
+    "price": 1030,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "sparkit"
   },
   {
-    "code": "008",
+    "attack": { "hp": 80, "melee": 100, "shot": 70, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 48,
+      "running": 300,
+      "mounted": null,
+      "transporting": 174
+    },
+    "code": "8",
     "name": "新叶猿",
-    "attr": [
-      "草"
-    ],
-    "partSkill": "猴急步枪",
-    "eat": 2,
-    "items": [
-      "蘑菇"
-    ],
+    "type": ["草"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "采集",
-        "level": 1
-      },
-      {
-        "type": "伐木",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 1
-      },
-      {
-        "type": "播种",
-        "level": 1
-      }
-    ]
+      { "type": "播种", "level": 1 },
+      { "type": "手工", "level": 1 },
+      { "type": "采集", "level": 1 },
+      { "type": "伐木", "level": 1 },
+      { "type": "搬运", "level": 1 }
+    ],
+    "food": 2,
+    "breedPower": 1250,
+    "price": 1280,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "tanzee"
   },
   {
-    "code": "009",
+    "attack": { "hp": 75, "melee": 100, "shot": 70, "defence": 75 },
+    "speed": {
+      "stamina": 100,
+      "walking": 100,
+      "running": 400,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "9",
     "name": "燎火鹿",
-    "attr": [
-      "火"
-    ],
-    "partSkill": "微小火种",
-    "eat": 3,
-    "items": [
-      "皮革",
-      "喷火器官"
-    ],
-    "works": [
-      {
-        "type": "生火",
-        "level": 1
-      }
-    ]
+    "type": ["火"],
+    "night": false,
+    "works": [{ "type": "生火", "level": 1 }],
+    "food": 3,
+    "breedPower": 1155,
+    "price": 2950,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "rooby"
   },
   {
-    "code": "010",
+    "attack": { "hp": 70, "melee": 70, "shot": 75, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 60,
+      "running": 500,
+      "mounted": null,
+      "transporting": 265
+    },
+    "code": "10",
     "name": "企丸丸",
-    "attr": [
-      "水",
-      "冰"
-    ],
-    "partSkill": "企丸丸发射",
-    "eat": 2,
-    "items": [
-      "结冰器官",
-      "帕鲁的体液"
-    ],
+    "type": ["水", "冰"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 1
-      },
-      {
-        "type": "浇水",
-        "level": 1
-      },
-      {
-        "type": "冷却",
-        "level": 1
-      }
-    ]
+      { "type": "浇水", "level": 1 },
+      { "type": "手工", "level": 1 },
+      { "type": "冷却", "level": 1 },
+      { "type": "搬运", "level": 1 }
+    ],
+    "food": 2,
+    "breedPower": 1350,
+    "price": 1080,
+    "captureMulti": 0,
+    "malePercent": 50,
+    "en_name": "pengullet"
   },
   {
-    "code": "011",
+    "attack": { "hp": 95, "melee": 70, "shot": 95, "defence": 95 },
+    "speed": {
+      "stamina": 100,
+      "walking": 110,
+      "running": 450,
+      "mounted": null,
+      "transporting": 280
+    },
+    "code": "11",
     "name": "企丸王",
-    "attr": [
-      "水",
-      "冰"
-    ],
-    "partSkill": "勇敢的海之战士",
-    "eat": 8,
-    "items": [
-      "结冰器官",
-      "企丸王的羽饰"
-    ],
+    "type": ["水", "冰"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 2
-      },
-      {
-        "type": "采矿",
-        "level": 2
-      },
-      {
-        "type": "搬运",
-        "level": 2
-      },
-      {
-        "type": "浇水",
-        "level": 2
-      },
-      {
-        "type": "冷却",
-        "level": 2
-      }
-    ]
+      { "type": "浇水", "level": 2 },
+      { "type": "手工", "level": 2 },
+      { "type": "采矿", "level": 2 },
+      { "type": "冷却", "level": 2 },
+      { "type": "搬运", "level": 2 }
+    ],
+    "food": 8,
+    "breedPower": 520,
+    "price": 5410,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "penking"
   },
   {
-    "code": "012",
+    "attack": { "hp": 70, "melee": 70, "shot": 75, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 60,
+      "running": 400,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "12",
     "name": "电棘鼠",
-    "attr": [
-      "雷"
-    ],
-    "partSkill": "电击炸弹",
-    "eat": 2,
-    "items": [
-      "发电器官"
-    ],
-    "works": [
-      {
-        "type": "发电",
-        "level": 1
-      }
-    ]
+    "type": ["雷"],
+    "night": false,
+    "works": [{ "type": "发电", "level": 1 }],
+    "food": 2,
+    "breedPower": 1370,
+    "price": 1060,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "jolthog"
   },
   {
-    "code": "012B",
+    "attack": { "hp": 70, "melee": 70, "shot": 75, "defence": 80 },
+    "speed": {
+      "stamina": 100,
+      "walking": 60,
+      "running": 400,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "12B",
     "name": "冰刺鼠",
-    "attr": [
-      "冰"
-    ],
-    "partSkill": "冻结炸弹",
-    "eat": 2,
-    "items": [
-      "结冰器官"
-    ],
-    "works": [
-      {
-        "type": "冷却",
-        "level": 1
-      }
-    ]
+    "type": ["冰"],
+    "night": false,
+    "works": [{ "type": "冷却", "level": 1 }],
+    "food": 2,
+    "breedPower": 1360,
+    "price": 1070,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "jolthog cryst"
   },
   {
-    "code": "013",
+    "attack": { "hp": 70, "melee": 100, "shot": 70, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 50,
+      "running": 300,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "13",
     "name": "叶泥泥",
-    "attr": [
-      "草",
-      "地"
-    ],
-    "partSkill": "樵夫啦啦队",
-    "eat": 1,
-    "items": [
-      "野莓种子",
-      "叶泥泥的种子"
-    ],
-    "works": [
-      {
-        "type": "播种",
-        "level": 1
-      }
-    ]
+    "type": ["草", "地"],
+    "night": false,
+    "works": [{ "type": "播种", "level": 1 }],
+    "food": 1,
+    "breedPower": 1240,
+    "price": 1310,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "gumoss"
   },
   {
-    "code": "014",
+    "attack": { "hp": 70, "melee": 70, "shot": 70, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 60,
+      "running": 350,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "14",
     "name": "玉藻狐",
-    "attr": [
-      "无"
-    ],
-    "partSkill": "挖掘指导",
-    "eat": 1,
-    "items": [
-      "皮革",
-      "骨头"
-    ],
+    "type": ["无"],
+    "night": false,
     "works": [
-      {
-        "type": "采集",
-        "level": 1
-      },
-      {
-        "type": "牧场",
-        "level": 1
-      }
-    ]
+      { "type": "采集", "level": 1 },
+      { "type": "牧场", "level": 1 }
+    ],
+    "food": 1,
+    "breedPower": 1450,
+    "price": 1000,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "vixy"
   },
   {
-    "code": "015",
+    "attack": { "hp": 70, "melee": 70, "shot": 70, "defence": 80 },
+    "speed": {
+      "stamina": 100,
+      "walking": 70,
+      "running": 380,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "15",
     "name": "啼卡尔",
-    "attr": [
-      "暗"
-    ],
-    "partSkill": "暗影睿智",
-    "eat": 3,
-    "items": [
-      "纤维",
-      "高等技术书"
-    ],
-    "works": [
-      {
-        "type": "采集",
-        "level": 1
-      }
-    ]
+    "type": ["暗"],
+    "night": true,
+    "works": [{ "type": "采集", "level": 1 }],
+    "food": 3,
+    "breedPower": 1390,
+    "price": 1050,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "hoocrates"
   },
   {
-    "code": "016",
+    "attack": { "hp": 70, "melee": 70, "shot": 60, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 60,
+      "running": 300,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "16",
     "name": "壶小象",
-    "attr": [
-      "水"
-    ],
-    "partSkill": "疗伤之浴",
-    "eat": 2,
-    "items": [
-      "帕鲁的体液"
-    ],
-    "works": [
-      {
-        "type": "浇水",
-        "level": 1
-      }
-    ]
+    "type": ["水"],
+    "night": false,
+    "works": [{ "type": "浇水", "level": 1 }],
+    "food": 2,
+    "breedPower": 1490,
+    "price": 1000,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "teafant"
   },
   {
-    "code": "017",
+    "attack": { "hp": 70, "melee": 70, "shot": 70, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 10,
+      "running": 300,
+      "mounted": null,
+      "transporting": 100
+    },
+    "code": "17",
     "name": "瞅什魔",
-    "attr": [
-      "暗"
-    ],
-    "partSkill": "摄取咖啡因",
-    "eat": 2,
-    "items": [
-      "毒腺"
-    ],
+    "type": ["暗"],
+    "night": true,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "采矿",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 1
-      }
-    ]
+      { "type": "手工", "level": 1 },
+      { "type": "采矿", "level": 1 },
+      { "type": "搬运", "level": 1 }
+    ],
+    "food": 2,
+    "breedPower": 1380,
+    "price": 1050,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "depresso"
   },
   {
-    "code": "018",
+    "attack": { "hp": 70, "melee": 100, "shot": 70, "defence": 75 },
+    "speed": {
+      "stamina": 100,
+      "walking": 40,
+      "running": 300,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "18",
     "name": "米露菲",
-    "attr": [
-      "无"
-    ],
-    "partSkill": "蓬松毛毛",
-    "eat": 2,
-    "items": [
-      "羊毛"
-    ],
+    "type": ["无"],
+    "night": false,
     "works": [
-      {
-        "type": "采集",
-        "level": 1
-      },
-      {
-        "type": "牧场",
-        "level": 1
-      }
-    ]
+      { "type": "采集", "level": 1 },
+      { "type": "牧场", "level": 1 }
+    ],
+    "food": 2,
+    "breedPower": 1455,
+    "price": 1420,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "cremis"
   },
   {
-    "code": "019",
+    "attack": { "hp": 70, "melee": 100, "shot": 75, "defence": 60 },
+    "speed": {
+      "stamina": 100,
+      "walking": 140,
+      "running": 300,
+      "mounted": null,
+      "transporting": 220
+    },
+    "code": "19",
     "name": "寐魔",
-    "attr": [
-      "暗"
-    ],
-    "partSkill": "逐梦者",
-    "eat": 3,
-    "items": [
-      "毒腺",
-      "小型帕鲁之魂"
-    ],
+    "type": ["暗"],
+    "night": true,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "采集",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 1
-      }
-    ]
+      { "type": "手工", "level": 1 },
+      { "type": "采集", "level": 1 },
+      { "type": "搬运", "level": 1 }
+    ],
+    "food": 3,
+    "breedPower": 1230,
+    "price": 1330,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "daedream"
   },
   {
-    "code": "020",
+    "attack": { "hp": 80, "melee": 100, "shot": 70, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 150,
+      "running": 450,
+      "mounted": 700,
+      "transporting": null
+    },
+    "code": "20",
     "name": "草莽猪",
-    "attr": [
-      "地"
-    ],
-    "partSkill": "坚硬头壳",
-    "eat": 3,
-    "items": [
-      "草莽猪的猪肉",
-      "皮革",
-      "骨头"
-    ],
-    "works": [
-      {
-        "type": "采矿",
-        "level": 1
-      }
-    ]
+    "ride": true,
+    "type": ["地"],
+    "night": false,
+    "works": [{ "type": "采矿", "level": 1 }],
+    "food": 3,
+    "breedPower": 1130,
+    "price": 1680,
+    "captureMulti": 1,
+    "malePercent": 50,
+
+    "en_name": "rushoar"
   },
   {
-    "code": "021",
+    "attack": { "hp": 75, "melee": 70, "shot": 85, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 60,
+      "running": 300,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "21",
     "name": "露娜蒂",
-    "attr": [
-      "暗"
-    ],
-    "partSkill": "冷娇",
-    "eat": 2,
-    "items": [
-      "皮革",
-      "小型帕鲁之魂"
-    ],
-    "works": [
-      {
-        "type": "采集",
-        "level": 1
-      }
-    ]
+    "type": ["暗"],
+    "night": false,
+    "works": [{ "type": "采集", "level": 1 }],
+    "food": 2,
+    "breedPower": 1180,
+    "price": 1480,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "nox"
   },
   {
-    "code": "022",
+    "attack": { "hp": 65, "melee": 100, "shot": 80, "defence": 50 },
+    "speed": {
+      "stamina": 100,
+      "walking": 60,
+      "running": 300,
+      "mounted": null,
+      "transporting": 240
+    },
+    "code": "22",
     "name": "遁地鼠",
-    "attr": [
-      "地"
-    ],
-    "partSkill": "探测矿石",
-    "eat": 2,
-    "items": [
-      "皮革"
-    ],
+    "type": ["地"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "采矿",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 1
-      }
-    ]
+      { "type": "手工", "level": 1 },
+      { "type": "采矿", "level": 1 },
+      { "type": "搬运", "level": 1 }
+    ],
+    "food": 2,
+    "breedPower": 1220,
+    "price": 1360,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "fuddler"
   },
   {
-    "code": "023",
+    "attack": { "hp": 60, "melee": 100, "shot": 60, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 120,
+      "running": 400,
+      "mounted": null,
+      "transporting": 260
+    },
+    "code": "23",
     "name": "勾魂鱿",
-    "attr": [
-      "暗"
-    ],
-    "partSkill": "炸鱿鱼",
-    "eat": 3,
-    "items": [
-      "毒腺"
-    ],
+    "gliding": true,
+    "type": ["暗"],
+    "night": true,
     "works": [
-      {
-        "type": "采集",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 2
-      }
-    ]
+      { "type": "采集", "level": 1 },
+      { "type": "搬运", "level": 2 }
+    ],
+    "food": 3,
+    "breedPower": 1290,
+    "price": 1200,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "killamari"
   },
   {
-    "code": "024",
+    "attack": { "hp": 70, "melee": 70, "shot": 60, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 105,
+      "running": 475,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "24",
     "name": "喵丝特",
-    "attr": [
-      "暗"
-    ],
-    "partSkill": "招财猫",
-    "eat": 1,
-    "items": [
-      "金币"
-    ],
-    "works": [
-      {
-        "type": "牧场",
-        "level": 1
-      }
-    ]
+    "type": ["暗"],
+    "night": true,
+    "works": [{ "type": "牧场", "level": 1 }],
+    "food": 1,
+    "breedPower": 1480,
+    "price": 1000,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "mau"
   },
   {
-    "code": "024B",
+    "attack": { "hp": 70, "melee": 70, "shot": 65, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 105,
+      "running": 475,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "24B",
     "name": "冰丝特",
-    "attr": [
-      "冰"
-    ],
-    "partSkill": "招财猫",
-    "eat": 1,
-    "items": [
-      "结冰器官",
-      "蓝宝石"
-    ],
+    "type": ["冰"],
+    "night": false,
     "works": [
-      {
-        "type": "冷却",
-        "level": 1
-      },
-      {
-        "type": "牧场",
-        "level": 1
-      }
-    ]
+      { "type": "冷却", "level": 1 },
+      { "type": "牧场", "level": 1 }
+    ],
+    "food": 1,
+    "breedPower": 1440,
+    "price": 1010,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "mau cryst"
   },
   {
-    "code": "025",
+    "attack": { "hp": 80, "melee": 100, "shot": 70, "defence": 80 },
+    "speed": {
+      "stamina": 100,
+      "walking": 150,
+      "running": 550,
+      "mounted": null,
+      "transporting": 350
+    },
+    "code": "25",
     "name": "鲁米儿",
-    "attr": [
-      "水"
-    ],
-    "partSkill": "微风滑翔",
-    "eat": 3,
-    "items": [
-      "帕鲁的体液"
-    ],
+    "gliding": true,
+    "type": ["水"],
+    "night": false,
     "works": [
-      {
-        "type": "浇水",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 1
-      }
-    ]
+      { "type": "浇水", "level": 1 },
+      { "type": "搬运", "level": 1 }
+    ],
+    "food": 3,
+    "breedPower": 870,
+    "price": 2860,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "celaray"
   },
   {
-    "code": "026",
+    "attack": { "hp": 80, "melee": 110, "shot": 90, "defence": 75 },
+    "speed": {
+      "stamina": 70,
+      "walking": 180,
+      "running": 800,
+      "mounted": 1050,
+      "transporting": null
+    },
+    "code": "26",
     "name": "猎狼",
-    "attr": [
-      "无"
-    ],
-    "partSkill": "猎狼骑手",
-    "eat": 3,
-    "items": [
-      "皮革",
-      "红宝石",
-      "金币"
-    ],
-    "works": [
-      {
-        "type": "采集",
-        "level": 1
-      }
-    ]
+    "ride": true,
+    "type": ["无"],
+    "night": false,
+    "works": [{ "type": "采集", "level": 1 }],
+    "food": 3,
+    "breedPower": 1060,
+    "price": 1920,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "direhowl"
   },
   {
-    "code": "027",
+    "attack": { "hp": 60, "melee": 80, "shot": 75, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 60,
+      "running": 300,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "27",
     "name": "炸蛋鸟",
-    "attr": [
-      "无"
-    ],
-    "partSkill": "炸蛋发射器",
-    "eat": 2,
-    "items": [
-      "火药",
-      "炸蛋鸟的羽毛"
-    ],
-    "works": [
-      {
-        "type": "采集",
-        "level": 1
-      }
-    ]
+    "type": ["无"],
+    "night": false,
+    "works": [{ "type": "采集", "level": 1 }],
+    "food": 2,
+    "breedPower": 1340,
+    "price": 1090,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "tocotoco"
   },
   {
-    "code": "028",
+    "attack": { "hp": 75, "melee": 100, "shot": 65, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 100,
+      "running": 400,
+      "mounted": null,
+      "transporting": 250
+    },
+    "code": "28",
     "name": "波娜兔",
-    "attr": [
-      "草"
-    ],
-    "partSkill": "兔兔助手",
-    "eat": 3,
-    "items": [
-      "低品质药品",
-      "小麦种子"
-    ],
+    "type": ["草"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "采集",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 1
-      },
-      {
-        "type": "播种",
-        "level": 1
-      },
-      {
-        "type": "制药",
-        "level": 1
-      }
-    ]
+      { "type": "播种", "level": 1 },
+      { "type": "手工", "level": 1 },
+      { "type": "采集", "level": 1 },
+      { "type": "制药", "level": 1 },
+      { "type": "搬运", "level": 1 }
+    ],
+    "food": 3,
+    "breedPower": 1280,
+    "price": 1220,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "flopie"
   },
   {
-    "code": "029",
+    "attack": { "hp": 90, "melee": 100, "shot": 50, "defence": 80 },
+    "speed": {
+      "stamina": 100,
+      "walking": 55,
+      "running": 580,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "29",
     "name": "波霸牛",
-    "attr": [
-      "无"
-    ],
-    "partSkill": "产奶",
-    "eat": 3,
-    "items": [
-      "波霸牛的牛肉",
-      "牛奶"
-    ],
-    "works": [
-      {
-        "type": "牧场",
-        "level": 1
-      }
-    ]
+    "type": ["无"],
+    "night": false,
+    "works": [{ "type": "牧场", "level": 1 }],
+    "food": 3,
+    "breedPower": 910,
+    "price": 2620,
+    "captureMulti": 1,
+    "malePercent": 20,
+    "en_name": "mozzarina"
   },
   {
-    "code": "030",
+    "attack": { "hp": 80, "melee": 80, "shot": 80, "defence": 80 },
+    "speed": {
+      "stamina": 100,
+      "walking": 100,
+      "running": 400,
+      "mounted": null,
+      "transporting": 250
+    },
+    "code": "30",
     "name": "荆棘魔仙",
-    "attr": [
-      "草"
-    ],
-    "partSkill": "公主的视线",
-    "eat": 5,
-    "items": [
-      "生菜种子",
-      "小麦种子"
-    ],
+    "type": ["草"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "采集",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 1
-      },
-      {
-        "type": "播种",
-        "level": 1
-      },
-      {
-        "type": "制药",
-        "level": 2
-      }
-    ]
+      { "type": "播种", "level": 1 },
+      { "type": "手工", "level": 1 },
+      { "type": "采集", "level": 1 },
+      { "type": "制药", "level": 2 },
+      { "type": "搬运", "level": 1 }
+    ],
+    "food": 5,
+    "breedPower": 1320,
+    "price": 1140,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "bristla"
   },
   {
-    "code": "031",
+    "attack": { "hp": 90, "melee": 90, "shot": 90, "defence": 75 },
+    "speed": {
+      "stamina": 100,
+      "walking": 80,
+      "running": 400,
+      "mounted": null,
+      "transporting": 120
+    },
+    "code": "31",
     "name": "鲨小子",
-    "attr": [
-      "水"
-    ],
-    "partSkill": "易怒鲨鲨",
-    "eat": 3,
-    "items": [
-      "帕鲁的体液"
-    ],
+    "type": ["水"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 1
-      },
-      {
-        "type": "浇水",
-        "level": 2
-      }
-    ]
+      { "type": "浇水", "level": 2 },
+      { "type": "手工", "level": 1 },
+      { "type": "搬运", "level": 1 }
+    ],
+    "food": 3,
+    "breedPower": 1090,
+    "price": 1840,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "gobfin"
   },
   {
-    "code": "031B",
+    "attack": { "hp": 90, "melee": 90, "shot": 90, "defence": 75 },
+    "speed": {
+      "stamina": 100,
+      "walking": 80,
+      "running": 400,
+      "mounted": null,
+      "transporting": 120
+    },
+    "code": "31B",
     "name": "红小鲨",
-    "attr": [
-      "火"
-    ],
-    "partSkill": "易怒鲨鲨",
-    "eat": 3,
-    "items": [
-      "喷火器官"
-    ],
+    "type": ["火"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 1
-      },
-      {
-        "type": "生火",
-        "level": 2
-      }
-    ]
+      { "type": "生火", "level": 2 },
+      { "type": "手工", "level": 1 },
+      { "type": "搬运", "level": 1 }
+    ],
+    "food": 3,
+    "breedPower": 1100,
+    "price": 1800,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "gobfin ignis"
   },
   {
-    "code": "032",
+    "attack": { "hp": 80, "melee": 70, "shot": 70, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 100,
+      "running": 400,
+      "mounted": null,
+      "transporting": 250
+    },
+    "code": "32",
     "name": "吊缚灵",
-    "attr": [
-      "地"
-    ],
-    "partSkill": "空中秋千",
-    "eat": 2,
-    "items": [
-      "纤维"
-    ],
+    "gliding": true,
+    "type": ["地"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "采集",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 2
-      }
-    ]
+      { "type": "手工", "level": 1 },
+      { "type": "采集", "level": 1 },
+      { "type": "搬运", "level": 2 }
+    ],
+    "food": 2,
+    "breedPower": 1420,
+    "price": 1020,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "hangyu"
   },
   {
-    "code": "032B",
+    "attack": { "hp": 80, "melee": 70, "shot": 80, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 100,
+      "running": 400,
+      "mounted": null,
+      "transporting": 250
+    },
+    "code": "32B",
     "name": "冰缚灵",
-    "attr": [
-      "冰"
-    ],
-    "partSkill": "寒空秋千",
-    "eat": 2,
-    "items": [
-      "纤维",
-      "结冰器官"
-    ],
+    "gliding": true,
+    "type": ["冰"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "采集",
-        "level": 1
-      },
-      {
-        "type": "冷却",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 2
-      }
-    ]
+      { "type": "手工", "level": 1 },
+      { "type": "采集", "level": 1 },
+      { "type": "冷却", "level": 1 },
+      { "type": "搬运", "level": 2 }
+    ],
+    "food": 2,
+    "breedPower": 1422,
+    "price": 1020,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "hangyu cryst"
   },
   {
-    "code": "033",
+    "attack": { "hp": 100, "melee": 100, "shot": 90, "defence": 90 },
+    "speed": {
+      "stamina": 100,
+      "walking": 100,
+      "running": 500,
+      "mounted": null,
+      "transporting": 275
+    },
+    "code": "33",
     "name": "叶胖达",
-    "attr": [
-      "草"
-    ],
-    "partSkill": "不良熊猫",
-    "eat": 5,
-    "items": [
-      "蘑菇",
-      "皮革",
-      "番茄种子"
-    ],
+    "ride": true,
+    "type": ["草"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 2
-      },
-      {
-        "type": "伐木",
-        "level": 2
-      },
-      {
-        "type": "搬运",
-        "level": 3
-      },
-      {
-        "type": "播种",
-        "level": 2
-      }
-    ]
+      { "type": "播种", "level": 2 },
+      { "type": "手工", "level": 2 },
+      { "type": "伐木", "level": 2 },
+      { "type": "搬运", "level": 3 }
+    ],
+    "food": 5,
+    "breedPower": 430,
+    "price": 6200,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "mossanda"
   },
   {
-    "code": "033B",
+    "attack": { "hp": 100, "melee": 100, "shot": 100, "defence": 100 },
+    "speed": {
+      "stamina": 100,
+      "walking": 100,
+      "running": 500,
+      "mounted": null,
+      "transporting": 275
+    },
+    "code": "33B",
     "name": "雷胖达",
-    "attr": [
-      "雷"
-    ],
-    "partSkill": "不良熊猫",
-    "eat": 5,
-    "items": [
-      "蘑菇",
-      "皮革",
-      "发电器官"
-    ],
+    "ride": true,
+    "type": ["雷"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 2
-      },
-      {
-        "type": "伐木",
-        "level": 2
-      },
-      {
-        "type": "搬运",
-        "level": 3
-      },
-      {
-        "type": "发电",
-        "level": 2
-      }
-    ]
+      { "type": "发电", "level": 2 },
+      { "type": "手工", "level": 2 },
+      { "type": "伐木", "level": 2 },
+      { "type": "搬运", "level": 3 }
+    ],
+    "food": 5,
+    "breedPower": 390,
+    "price": 6610,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "mossanda lux"
   },
   {
-    "code": "034",
+    "attack": { "hp": 70, "melee": 70, "shot": 70, "defence": 90 },
+    "speed": {
+      "stamina": 100,
+      "walking": 100,
+      "running": 300,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "34",
     "name": "棉花糖",
-    "attr": [
-      "无"
-    ],
-    "partSkill": "糖果甜心",
-    "eat": 2,
-    "items": [
-      "棉花糖",
-      "优质帕鲁油"
-    ],
-    "works": [
-      {
-        "type": "牧场",
-        "level": 1
-      }
-    ]
+    "type": ["无"],
+    "night": false,
+    "works": [{ "type": "牧场", "level": 1 }],
+    "food": 2,
+    "breedPower": 1190,
+    "price": 1450,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "woolipop"
   },
   {
-    "code": "035",
+    "attack": { "hp": 100, "melee": 70, "shot": 70, "defence": 90 },
+    "speed": {
+      "stamina": 100,
+      "walking": 70,
+      "running": 400,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "35",
     "name": "灌木羊",
-    "attr": [
-      "草"
-    ],
-    "partSkill": "采摘野莓",
-    "eat": 4,
-    "items": [
-      "灌木羊的香草肉",
-      "红色野莓",
-      "角"
-    ],
+    "type": ["草"],
+    "night": false,
     "works": [
-      {
-        "type": "牧场",
-        "level": 1
-      },
-      {
-        "type": "播种",
-        "level": 2
-      }
-    ]
+      { "type": "播种", "level": 2 },
+      { "type": "牧场", "level": 1 }
+    ],
+    "food": 4,
+    "breedPower": 930,
+    "price": 2510,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "caprity"
   },
   {
-    "code": "036",
+    "attack": { "hp": 90, "melee": 90, "shot": 75, "defence": 90 },
+    "speed": {
+      "stamina": 100,
+      "walking": 62,
+      "running": 460,
+      "mounted": 800,
+      "transporting": null
+    },
+    "code": "36",
     "name": "美露帕",
-    "attr": [
-      "无"
-    ],
-    "partSkill": "蓬蓬羊毛",
-    "eat": 3,
-    "items": [
-      "羊毛",
-      "皮革"
-    ],
-    "works": [
-      {
-        "type": "牧场",
-        "level": 1
-      }
-    ]
+    "ride": true,
+    "type": ["无"],
+    "night": false,
+    "works": [{ "type": "牧场", "level": 1 }],
+    "food": 3,
+    "breedPower": 890,
+    "price": 2740,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "melpaca"
   },
   {
-    "code": "037",
+    "attack": { "hp": 95, "melee": 70, "shot": 80, "defence": 80 },
+    "speed": {
+      "stamina": 100,
+      "walking": 120,
+      "running": 700,
+      "mounted": 900,
+      "transporting": null
+    },
+    "code": "37",
     "name": "紫霞鹿",
-    "attr": [
-      "无"
-    ],
-    "partSkill": "森林守护者",
-    "eat": 5,
-    "items": [
-      "紫霞鹿的鹿肉",
-      "皮革",
-      "角"
-    ],
-    "works": [
-      {
-        "type": "伐木",
-        "level": 2
-      }
-    ]
+    "ride": true,
+    "type": ["无"],
+    "night": false,
+    "works": [{ "type": "伐木", "level": 2 }],
+    "food": 5,
+    "breedPower": 920,
+    "price": 2620,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "eikthyrdeer"
   },
   {
-    "code": "037B",
+    "attack": { "hp": 95, "melee": 70, "shot": 80, "defence": 80 },
+    "speed": {
+      "stamina": 100,
+      "walking": 120,
+      "running": 700,
+      "mounted": 900,
+      "transporting": null
+    },
+    "code": "37B",
     "name": "祇岳鹿",
-    "attr": [
-      "地"
-    ],
-    "partSkill": "山脉守护者",
-    "eat": 5,
-    "items": [
-      "祇岳鹿的鹿肉",
-      "皮革",
-      "角"
-    ],
-    "works": [
-      {
-        "type": "伐木",
-        "level": 2
-      }
-    ]
+    "ride": true,
+    "type": ["地"],
+    "night": false,
+    "works": [{ "type": "伐木", "level": 2 }],
+    "food": 5,
+    "breedPower": 900,
+    "price": 2680,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "eikthyrdeer terra"
   },
   {
-    "code": "038",
+    "attack": { "hp": 100, "melee": 100, "shot": 95, "defence": 80 },
+    "speed": {
+      "stamina": 100,
+      "walking": 150,
+      "running": 600,
+      "mounted": 750,
+      "transporting": null
+    },
+    "code": "38",
     "name": "疾风隼",
-    "attr": [
-      "无"
-    ],
-    "partSkill": "旅伴",
-    "eat": 7,
-    "items": [
-      "皮革"
-    ],
-    "works": [
-      {
-        "type": "采集",
-        "level": 2
-      }
-    ]
+    "fly": true,
+    "type": ["无"],
+    "night": false,
+    "works": [{ "type": "采集", "level": 2 }],
+    "food": 7,
+    "breedPower": 420,
+    "price": 6300,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "nitewing"
   },
   {
-    "code": "039",
+    "attack": { "hp": 75, "melee": 100, "shot": 65, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 100,
+      "running": 245,
+      "mounted": null,
+      "transporting": 172
+    },
+    "code": "39",
     "name": "姬小兔",
-    "attr": [
-      "无"
-    ],
-    "partSkill": "巧手",
-    "eat": 2,
-    "items": [
-      "皮革",
-      "美丽花朵"
-    ],
+    "type": ["无"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "采集",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 1
-      }
-    ]
+      { "type": "手工", "level": 1 },
+      { "type": "采集", "level": 1 },
+      { "type": "搬运", "level": 1 }
+    ],
+    "food": 2,
+    "breedPower": 1310,
+    "price": 1160,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "ribbuny"
   },
   {
-    "code": "040",
+    "attack": { "hp": 95, "melee": 150, "shot": 100, "defence": 85 },
+    "speed": {
+      "stamina": 100,
+      "walking": 160,
+      "running": 700,
+      "mounted": null,
+      "transporting": 320
+    },
+    "code": "40",
     "name": "炎魔羊",
-    "attr": [
-      "火",
-      "暗"
-    ],
-    "partSkill": "焰爪猎人",
-    "eat": 4,
-    "items": [
-      "皮革",
-      "角"
-    ],
+    "type": ["火", "暗"],
+    "night": true,
     "works": [
-      {
-        "type": "手工",
-        "level": 2
-      },
-      {
-        "type": "采矿",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 2
-      },
-      {
-        "type": "生火",
-        "level": 1
-      }
-    ]
+      { "type": "生火", "level": 1 },
+      { "type": "手工", "level": 2 },
+      { "type": "采矿", "level": 1 },
+      { "type": "搬运", "level": 2 }
+    ],
+    "food": 4,
+    "breedPower": 590,
+    "price": 4780,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "incineram"
   },
   {
-    "code": "040B",
+    "attack": { "hp": 95, "melee": 150, "shot": 105, "defence": 85 },
+    "speed": {
+      "stamina": 100,
+      "walking": 160,
+      "running": 700,
+      "mounted": null,
+      "transporting": 320
+    },
+    "code": "40B",
     "name": "暗魔羊",
-    "attr": [
-      "暗"
-    ],
-    "partSkill": "影爪猎人",
-    "eat": 4,
-    "items": [
-      "皮革",
-      "角"
-    ],
+    "type": ["暗"],
+    "night": true,
     "works": [
-      {
-        "type": "手工",
-        "level": 2
-      },
-      {
-        "type": "采矿",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 2
-      }
-    ]
+      { "type": "手工", "level": 2 },
+      { "type": "采矿", "level": 1 },
+      { "type": "搬运", "level": 2 }
+    ],
+    "food": 4,
+    "breedPower": 580,
+    "price": 4870,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "incineram noct"
   },
   {
-    "code": "041",
+    "attack": { "hp": 70, "melee": 100, "shot": 80, "defence": 80 },
+    "speed": {
+      "stamina": 100,
+      "walking": 150,
+      "running": 550,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "41",
     "name": "幻悦蝶",
-    "attr": [
-      "草"
-    ],
-    "partSkill": "神秘鳞粉",
-    "eat": 3,
-    "items": [
-      "蜂蜜",
-      "生菜种子",
-      "小麦种子"
-    ],
+    "type": ["草"],
+    "night": false,
     "works": [
-      {
-        "type": "播种",
-        "level": 2
-      },
-      {
-        "type": "制药",
-        "level": 1
-      }
-    ]
+      { "type": "播种", "level": 2 },
+      { "type": "制药", "level": 1 }
+    ],
+    "food": 3,
+    "breedPower": 490,
+    "price": 5700,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "cinnamoth"
   },
   {
-    "code": "042",
+    "attack": { "hp": 85, "melee": 100, "shot": 95, "defence": 95 },
+    "speed": {
+      "stamina": 100,
+      "walking": 87,
+      "running": 600,
+      "mounted": 800,
+      "transporting": null
+    },
+    "code": "42",
     "name": "炽焰牛",
-    "attr": [
-      "火"
-    ],
-    "partSkill": "温暖之躯",
-    "eat": 5,
-    "items": [
-      "喷火器管",
-      "角"
-    ],
+    "ride": true,
+    "type": ["火"],
+    "night": false,
     "works": [
-      {
-        "type": "生火",
-        "level": 2
-      },
-      {
-        "type": "伐木",
-        "level": 1
-      }
-    ]
+      { "type": "生火", "level": 2 },
+      { "type": "伐木", "level": 1 }
+    ],
+    "food": 5,
+    "breedPower": 790,
+    "price": 3520,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "arsox"
   },
   {
-    "code": "043",
+    "attack": { "hp": 100, "melee": 100, "shot": 70, "defence": 95 },
+    "speed": {
+      "stamina": 100,
+      "walking": 150,
+      "running": 450,
+      "mounted": null,
+      "transporting": 300
+    },
+    "code": "43",
     "name": "趴趴鲶",
-    "attr": [
-      "地"
-    ],
-    "partSkill": "改善土质",
-    "eat": 4,
-    "items": [
-      "趴趴鲶的鱼肉",
-      "优质帕鲁油"
-    ],
+    "type": ["地"],
+    "night": false,
     "works": [
-      {
-        "type": "采矿",
-        "level": 2
-      },
-      {
-        "type": "搬运",
-        "level": 1
-      },
-      {
-        "type": "浇水",
-        "level": 1
-      }
-    ]
+      { "type": "浇水", "level": 1 },
+      { "type": "采矿", "level": 2 },
+      { "type": "搬运", "level": 1 }
+    ],
+    "food": 4,
+    "breedPower": 895,
+    "price": 4690,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "dumud"
   },
   {
-    "code": "044",
+    "attack": { "hp": 75, "melee": 80, "shot": 95, "defence": 80 },
+    "speed": {
+      "stamina": 100,
+      "walking": 170,
+      "running": 920,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "44",
     "name": "黑鸦隐士",
-    "attr": [
-      "暗"
-    ],
-    "partSkill": "幻影突袭",
-    "eat": 5,
-    "items": [
-      "骨头",
-      "毒腺",
-      "小型帕鲁之魂"
-    ],
-    "works": [
-      {
-        "type": "伐木",
-        "level": 1
-      }
-    ]
+    "type": ["暗"],
+    "night": true,
+    "works": [{ "type": "伐木", "level": 1 }],
+    "food": 5,
+    "breedPower": 1080,
+    "price": 1840,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "cawgnito"
   },
   {
-    "code": "045",
+    "attack": { "hp": 80, "melee": 90, "shot": 80, "defence": 50 },
+    "speed": {
+      "stamina": 100,
+      "walking": 140,
+      "running": 600,
+      "mounted": null,
+      "transporting": 270
+    },
+    "code": "45",
     "name": "朋克蜥",
-    "attr": [
-      "暗"
-    ],
-    "partSkill": "第六感",
-    "eat": 3,
-    "items": [
-      "铜钥匙",
-      "银钥匙"
-    ],
+    "type": ["暗"],
+    "night": true,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "采集",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 1
-      }
-    ]
+      { "type": "手工", "level": 1 },
+      { "type": "采集", "level": 1 },
+      { "type": "搬运", "level": 1 }
+    ],
+    "food": 3,
+    "breedPower": 1120,
+    "price": 1720,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "leezpunk"
   },
   {
-    "code": "045B",
+    "attack": { "hp": 80, "melee": 90, "shot": 80, "defence": 50 },
+    "speed": {
+      "stamina": 100,
+      "walking": 140,
+      "running": 400,
+      "mounted": null,
+      "transporting": 270
+    },
+    "code": "45B",
     "name": "热血蜥",
-    "attr": [
-      "火"
-    ],
-    "partSkill": "第六感",
-    "eat": 3,
-    "items": [
-      "喷火器官",
-      "银钥匙"
-    ],
+    "type": ["火"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "采集",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 1
-      },
-      {
-        "type": "生火",
-        "level": 1
-      }
-    ]
+      { "type": "生火", "level": 1 },
+      { "type": "手工", "level": 1 },
+      { "type": "采集", "level": 1 },
+      { "type": "搬运", "level": 1 }
+    ],
+    "food": 3,
+    "breedPower": 1140,
+    "price": 1640,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "leezpunk ignis"
   },
   {
-    "code": "046",
+    "attack": { "hp": 80, "melee": 130, "shot": 100, "defence": 80 },
+    "speed": {
+      "stamina": 100,
+      "walking": 150,
+      "running": 600,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "46",
     "name": "月镰魔",
-    "attr": [
-      "暗"
-    ],
-    "partSkill": "黑暗中的闪亮利爪",
-    "eat": 5,
-    "items": [
-      "骨头"
-    ],
-    "works": [
-      {
-        "type": "手工",
-        "level": 2
-      }
-    ]
+    "type": ["暗"],
+    "night": true,
+    "works": [{ "type": "手工", "level": 2 }],
+    "food": 5,
+    "breedPower": 950,
+    "price": 2400,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "loupmoon"
   },
   {
-    "code": "047",
+    "attack": { "hp": 75, "melee": 120, "shot": 85, "defence": 60 },
+    "speed": {
+      "stamina": 100,
+      "walking": 200,
+      "running": 600,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "47",
     "name": "天擒鸟",
-    "attr": [
-      "无"
-    ],
-    "partSkill": "天擒鸟滑翔",
-    "eat": 4,
-    "items": [
-      "皮革",
-      "天擒鸟的鸟肉"
-    ],
-    "works": [
-      {
-        "type": "采集",
-        "level": 2
-      }
-    ]
+    "gliding": true,
+    "type": ["无"],
+    "night": false,
+    "works": [{ "type": "采集", "level": 2 }],
+    "food": 4,
+    "breedPower": 1030,
+    "price": 2010,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "galeclaw"
   },
   {
-    "code": "048",
+    "attack": { "hp": 90, "melee": 100, "shot": 105, "defence": 80 },
+    "speed": {
+      "stamina": 100,
+      "walking": 100,
+      "running": 600,
+      "mounted": null,
+      "transporting": 400
+    },
+    "code": "48",
     "name": "羽箭射手",
-    "attr": [
-      "草"
-    ],
-    "partSkill": "鹰眼",
-    "eat": 3,
-    "items": [
-      "箭",
-      "小麦种子"
-    ],
+    "type": ["草"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 2
-      },
-      {
-        "type": "采集",
-        "level": 2
-      },
-      {
-        "type": "伐木",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 2
-      },
-      {
-        "type": "播种",
-        "level": 1
-      },
-      {
-        "type": "制药",
-        "level": 1
-      }
-    ]
+      { "type": "播种", "level": 1 },
+      { "type": "手工", "level": 2 },
+      { "type": "采集", "level": 2 },
+      { "type": "伐木", "level": 1 },
+      { "type": "制药", "level": 1 },
+      { "type": "搬运", "level": 2 }
+    ],
+    "food": 3,
+    "breedPower": 1020,
+    "price": 2050,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "robinquill"
   },
   {
-    "code": "048B",
+    "attack": { "hp": 90, "melee": 100, "shot": 105, "defence": 80 },
+    "speed": {
+      "stamina": 100,
+      "walking": 100,
+      "running": 600,
+      "mounted": null,
+      "transporting": 400
+    },
+    "code": "48B",
     "name": "山岳射手",
-    "attr": [
-      "草",
-      "地"
-    ],
-    "partSkill": "鹰眼",
-    "eat": 3,
-    "items": [
-      "箭",
-      "小麦种子"
-    ],
+    "type": ["草", "地"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 2
-      },
-      {
-        "type": "采集",
-        "level": 2
-      },
-      {
-        "type": "伐木",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 2
-      },
-      {
-        "type": "制药",
-        "level": 1
-      }
-    ]
+      { "type": "手工", "level": 2 },
+      { "type": "采集", "level": 2 },
+      { "type": "伐木", "level": 1 },
+      { "type": "制药", "level": 1 },
+      { "type": "搬运", "level": 2 }
+    ],
+    "food": 3,
+    "breedPower": 1000,
+    "price": 2150,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "robinquill terra"
   },
   {
-    "code": "049",
+    "attack": { "hp": 90, "melee": 110, "shot": 95, "defence": 90 },
+    "speed": {
+      "stamina": 100,
+      "walking": 100,
+      "running": 550,
+      "mounted": null,
+      "transporting": 250
+    },
+    "code": "49",
     "name": "铁拳猿",
-    "attr": [
-      "无"
-    ],
-    "partSkill": "火力全开大猩猩模式",
-    "eat": 3,
-    "items": [
-      "皮革",
-      "骨头"
-    ],
+    "type": ["无"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "伐木",
-        "level": 2
-      },
-      {
-        "type": "搬运",
-        "level": 3
-      }
-    ]
+      { "type": "手工", "level": 1 },
+      { "type": "伐木", "level": 2 },
+      { "type": "搬运", "level": 3 }
+    ],
+    "food": 3,
+    "breedPower": 1040,
+    "price": 2010,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "gorirat"
   },
   {
-    "code": "050",
+    "attack": { "hp": 80, "melee": 100, "shot": 90, "defence": 90 },
+    "speed": {
+      "stamina": 100,
+      "walking": 250,
+      "running": 450,
+      "mounted": null,
+      "transporting": 350
+    },
+    "code": "50",
     "name": "骑士蜂",
-    "attr": [
-      "草"
-    ],
-    "partSkill": "工蜂",
-    "eat": 3,
-    "items": [
-      "蜂蜜"
-    ],
+    "type": ["草"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "采集",
-        "level": 1
-      },
-      {
-        "type": "伐木",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 2
-      },
-      {
-        "type": "播种",
-        "level": 1
-      },
-      {
-        "type": "牧场",
-        "level": 1
-      },
-      {
-        "type": "制药",
-        "level": 1
-      }
-    ]
+      { "type": "播种", "level": 1 },
+      { "type": "手工", "level": 1 },
+      { "type": "采集", "level": 1 },
+      { "type": "伐木", "level": 1 },
+      { "type": "制药", "level": 1 },
+      { "type": "搬运", "level": 2 },
+      { "type": "牧场", "level": 1 }
+    ],
+    "food": 3,
+    "breedPower": 1070,
+    "price": 1880,
+    "captureMulti": 1,
+    "malePercent": 10,
+    "en_name": "beegarde"
   },
   {
-    "code": "051",
+    "attack": { "hp": 90, "melee": 100, "shot": 105, "defence": 100 },
+    "speed": {
+      "stamina": 100,
+      "walking": 250,
+      "running": 450,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "51",
     "name": "女皇蜂",
-    "attr": [
-      "草"
-    ],
-    "partSkill": "女王蜂的统率",
-    "eat": 7,
-    "items": [
-      "蜂蜜",
-      "女皇蜂之杖"
-    ],
+    "type": ["草"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 2
-      },
-      {
-        "type": "采集",
-        "level": 2
-      },
-      {
-        "type": "伐木",
-        "level": 1
-      },
-      {
-        "type": "播种",
-        "level": 2
-      },
-      {
-        "type": "制药",
-        "level": 2
-      }
-    ]
+      { "type": "播种", "level": 2 },
+      { "type": "手工", "level": 2 },
+      { "type": "采集", "level": 2 },
+      { "type": "伐木", "level": 1 },
+      { "type": "制药", "level": 2 }
+    ],
+    "food": 7,
+    "breedPower": 330,
+    "price": 6830,
+    "captureMulti": 1,
+    "malePercent": 10,
+    "en_name": "elizabee"
   },
   {
-    "code": "052",
+    "attack": { "hp": 110, "melee": 100, "shot": 80, "defence": 80 },
+    "speed": {
+      "stamina": 100,
+      "walking": 64,
+      "running": 600,
+      "mounted": 800,
+      "transporting": null
+    },
+    "code": "52",
     "name": "笑魇猫",
-    "attr": [
-      "无"
-    ],
-    "partSkill": "丰润之躯",
-    "eat": 4,
-    "items": [
-      "优质帕鲁油"
-    ],
-    "works": [
-      {
-        "type": "采集",
-        "level": 2
-      }
-    ]
+    "ride": true,
+    "type": ["无"],
+    "night": false,
+    "works": [{ "type": "采集", "level": 2 }],
+    "food": 4,
+    "breedPower": 510,
+    "price": 5510,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "grintale"
   },
   {
-    "code": "053",
+    "attack": { "hp": 60, "melee": 100, "shot": 60, "defence": 60 },
+    "speed": {
+      "stamina": 100,
+      "walking": 100,
+      "running": 250,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "53",
     "name": "毛掸儿",
-    "attr": [
-      "冰"
-    ],
-    "partSkill": "毛茸茸茸茸",
-    "eat": 2,
-    "items": [
-      "羊毛"
-    ],
+    "type": ["冰"],
+    "night": false,
     "works": [
-      {
-        "type": "采集",
-        "level": 1
-      },
-      {
-        "type": "冷却",
-        "level": 1
-      }
-    ]
+      { "type": "采集", "level": 1 },
+      { "type": "冷却", "level": 1 }
+    ],
+    "food": 2,
+    "breedPower": 1300,
+    "price": 1180,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "swee"
   },
   {
-    "code": "054",
+    "attack": { "hp": 100, "melee": 100, "shot": 90, "defence": 90 },
+    "speed": {
+      "stamina": 100,
+      "walking": 120,
+      "running": 300,
+      "mounted": 500,
+      "transporting": null
+    },
+    "code": "54",
     "name": "毛老爹",
-    "attr": [
-      "冰"
-    ],
-    "partSkill": "毛茸茸之王",
-    "eat": 3,
-    "items": [
-      "羊毛"
-    ],
+    "ride": true,
+    "type": ["冰"],
+    "night": false,
     "works": [
-      {
-        "type": "采集",
-        "level": 2
-      },
-      {
-        "type": "冷却",
-        "level": 2
-      }
-    ]
+      { "type": "采集", "level": 2 },
+      { "type": "冷却", "level": 2 }
+    ],
+    "food": 3,
+    "breedPower": 410,
+    "price": 6400,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "sweepa"
   },
   {
-    "code": "055",
+    "attack": { "hp": 90, "melee": 100, "shot": 80, "defence": 80 },
+    "speed": {
+      "stamina": 100,
+      "walking": 180,
+      "running": 600,
+      "mounted": 800,
+      "transporting": null
+    },
+    "code": "55",
     "name": "疾旋鼬",
-    "attr": [
-      "冰",
-      "龙"
-    ],
-    "partSkill": "扭扭鼬鼬",
-    "eat": 3,
-    "items": [
-      "皮革"
-    ],
+    "ride": true,
+    "type": ["冰", "龙"],
+    "night": false,
     "works": [
-      {
-        "type": "采集",
-        "level": 1
-      },
-      {
-        "type": "冷却",
-        "level": 1
-      }
-    ]
+      { "type": "采集", "level": 1 },
+      { "type": "冷却", "level": 1 }
+    ],
+    "food": 3,
+    "breedPower": 800,
+    "price": 3450,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "chillet"
   },
   {
-    "code": "056",
+    "attack": { "hp": 80, "melee": 110, "shot": 105, "defence": 105 },
+    "speed": {
+      "stamina": 100,
+      "walking": 130,
+      "running": 720,
+      "mounted": 1100,
+      "transporting": null
+    },
+    "code": "56",
     "name": "雷角马",
-    "attr": [
-      "雷"
-    ],
-    "partSkill": "疾风迅雷",
-    "eat": 5,
-    "items": [
-      "角",
-      "皮革",
-      "发电器官"
-    ],
+    "ride": true,
+    "type": ["雷"],
+    "night": false,
     "works": [
-      {
-        "type": "伐木",
-        "level": 1
-      },
-      {
-        "type": "发电",
-        "level": 2
-      }
-    ]
+      { "type": "发电", "level": 2 },
+      { "type": "伐木", "level": 1 }
+    ],
+    "food": 5,
+    "breedPower": 680,
+    "price": 4280,
+    "captureMulti": 0,
+    "malePercent": 50,
+    "en_name": "univolt"
   },
   {
-    "code": "057",
+    "attack": { "hp": 90, "melee": 100, "shot": 95, "defence": 105 },
+    "speed": {
+      "stamina": 100,
+      "walking": 130,
+      "running": 600,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "57",
     "name": "吹雪狐",
-    "attr": [
-      "冰"
-    ],
-    "partSkill": "极光的指引",
-    "eat": 3,
-    "items": [
-      "皮革",
-      "结冰器官"
-    ],
-    "works": [
-      {
-        "type": "冷却",
-        "level": 2
-      }
-    ]
+    "type": ["冰"],
+    "night": false,
+    "works": [{ "type": "冷却", "level": 2 }],
+    "food": 3,
+    "breedPower": 760,
+    "price": 3730,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "foxcicle"
   },
   {
-    "code": "058",
+    "attack": { "hp": 100, "melee": 110, "shot": 95, "defence": 90 },
+    "speed": {
+      "stamina": 100,
+      "walking": 150,
+      "running": 850,
+      "mounted": 1300,
+      "transporting": null
+    },
+    "code": "58",
     "name": "火麒麟",
-    "attr": [
-      "火"
-    ],
-    "partSkill": "赤兔马",
-    "eat": 5,
-    "items": [
-      "喷火器官",
-      "皮革"
-    ],
+    "ride": true,
+    "type": ["火"],
+    "night": false,
     "works": [
-      {
-        "type": "伐木",
-        "level": 1
-      },
-      {
-        "type": "生火",
-        "level": 2
-      }
-    ]
+      { "type": "生火", "level": 2 },
+      { "type": "伐木", "level": 1 }
+    ],
+    "food": 5,
+    "breedPower": 360,
+    "price": 6720,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "pyrin"
   },
   {
-    "code": "058B",
+    "attack": { "hp": 100, "melee": 110, "shot": 95, "defence": 90 },
+    "speed": {
+      "stamina": 100,
+      "walking": 150,
+      "running": 850,
+      "mounted": 1300,
+      "transporting": null
+    },
+    "code": "58B",
     "name": "邪麒麟",
-    "attr": [
-      "火",
-      "暗"
-    ],
-    "partSkill": "黑兔马",
-    "eat": 5,
-    "items": [
-      "喷火器官",
-      "皮革"
-    ],
+    "ride": true,
+    "type": ["火", "暗"],
+    "night": true,
     "works": [
-      {
-        "type": "伐木",
-        "level": 1
-      },
-      {
-        "type": "生火",
-        "level": 2
-      }
-    ]
+      { "type": "生火", "level": 2 },
+      { "type": "伐木", "level": 1 }
+    ],
+    "food": 5,
+    "breedPower": 240,
+    "price": 7270,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "pyrin noct"
   },
   {
-    "code": "059",
+    "attack": { "hp": 100, "melee": 80, "shot": 85, "defence": 110 },
+    "speed": {
+      "stamina": 100,
+      "walking": 70,
+      "running": 550,
+      "mounted": 700,
+      "transporting": null
+    },
+    "code": "59",
     "name": "严冬鹿",
-    "attr": [
-      "冰"
-    ],
-    "partSkill": "冰凉之躯",
-    "eat": 7,
-    "items": [
-      "严冬鹿的鹿肉",
-      "皮革",
-      "角",
-      "结冰器官"
-    ],
+    "ride": true,
+    "type": ["冰"],
+    "night": false,
     "works": [
-      {
-        "type": "伐木",
-        "level": 2
-      },
-      {
-        "type": "冷却",
-        "level": 2
-      }
-    ]
+      { "type": "伐木", "level": 2 },
+      { "type": "冷却", "level": 2 }
+    ],
+    "food": 7,
+    "breedPower": 880,
+    "price": 2800,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "reindrix"
   },
   {
-    "code": "060",
+    "attack": { "hp": 90, "melee": 100, "shot": 100, "defence": 80 },
+    "speed": {
+      "stamina": 100,
+      "walking": 210,
+      "running": 700,
+      "mounted": 1150,
+      "transporting": null
+    },
+    "code": "60",
     "name": "霹雳犬",
-    "attr": [
-      "雷"
-    ],
-    "partSkill": "跳跃力",
-    "eat": 5,
-    "items": [
-      "发电器官"
-    ],
-    "works": [
-      {
-        "type": "发电",
-        "level": 2
-      }
-    ]
+    "ride": true,
+    "type": ["雷"],
+    "night": false,
+    "works": [{ "type": "发电", "level": 2 }],
+    "food": 5,
+    "breedPower": 740,
+    "price": 3880,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "rayhound"
   },
   {
-    "code": "061",
+    "attack": { "hp": 100, "melee": 70, "shot": 115, "defence": 100 },
+    "speed": {
+      "stamina": 100,
+      "walking": 130,
+      "running": 700,
+      "mounted": 900,
+      "transporting": null
+    },
+    "code": "61",
     "name": "苍焰狼",
-    "attr": [
-      "火"
-    ],
-    "partSkill": "心无杂念",
-    "eat": 4,
-    "items": [
-      "喷火器官",
-      "皮革"
-    ],
-    "works": [
-      {
-        "type": "生火",
-        "level": 2
-      }
-    ]
+    "ride": true,
+    "type": ["火"],
+    "night": false,
+    "works": [{ "type": "生火", "level": 2 }],
+    "food": 4,
+    "breedPower": 830,
+    "price": 3170,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "kitsun"
   },
   {
-    "code": "062",
+    "attack": { "hp": 70, "melee": 110, "shot": 80, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 200,
+      "running": 400,
+      "mounted": null,
+      "transporting": 300
+    },
+    "code": "62",
     "name": "雷鸣童子",
-    "attr": [
-      "雷"
-    ],
-    "partSkill": "雷电姑娘",
-    "eat": 2,
-    "items": [
-      "发电器官"
-    ],
+    "type": ["雷"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 1
-      },
-      {
-        "type": "发电",
-        "level": 1
-      }
-    ]
+      { "type": "发电", "level": 1 },
+      { "type": "手工", "level": 1 },
+      { "type": "搬运", "level": 1 }
+    ],
+    "food": 2,
+    "breedPower": 1210,
+    "price": 1390,
+    "captureMulti": 1,
+    "malePercent": 20,
+    "en_name": "dazzi"
   },
   {
-    "code": "063",
+    "attack": { "hp": 90, "melee": 80, "shot": 100, "defence": 90 },
+    "speed": {
+      "stamina": 100,
+      "walking": 130,
+      "running": 500,
+      "mounted": null,
+      "transporting": 315
+    },
+    "code": "63",
     "name": "秘斯媞雅",
-    "attr": [
-      "无"
-    ],
-    "partSkill": "反重力",
-    "eat": 2,
-    "items": [
-      "帕鲁矿碎块"
-    ],
+    "type": ["无"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 3
-      },
-      {
-        "type": "采集",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 1
-      }
-    ]
+      { "type": "手工", "level": 3 },
+      { "type": "采集", "level": 1 },
+      { "type": "搬运", "level": 1 }
+    ],
+    "food": 2,
+    "breedPower": 1110,
+    "price": 1760,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "lunaris"
   },
   {
-    "code": "064",
+    "attack": { "hp": 110, "melee": 90, "shot": 85, "defence": 90 },
+    "speed": {
+      "stamina": 100,
+      "walking": 120,
+      "running": 550,
+      "mounted": 700,
+      "transporting": null
+    },
+    "code": "64",
     "name": "花冠龙",
-    "attr": [
-      "草",
-      "龙"
-    ],
-    "partSkill": "馥郁花香之龙",
-    "eat": 6,
-    "items": [
-      "小麦种子"
-    ],
+    "ride": true,
+    "type": ["草", "龙"],
+    "night": false,
     "works": [
-      {
-        "type": "伐木",
-        "level": 2
-      },
-      {
-        "type": "播种",
-        "level": 2
-      }
-    ]
+      { "type": "播种", "level": 2 },
+      { "type": "伐木", "level": 2 }
+    ],
+    "food": 6,
+    "breedPower": 820,
+    "price": 3240,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "dinossom"
   },
   {
-    "code": "064B",
+    "attack": { "hp": 110, "melee": 90, "shot": 90, "defence": 90 },
+    "speed": {
+      "stamina": 100,
+      "walking": 120,
+      "running": 550,
+      "mounted": 700,
+      "transporting": null
+    },
+    "code": "64B",
     "name": "雷冠龙",
-    "attr": [
-      "雷",
-      "龙"
-    ],
-    "partSkill": "落雷绽放之龙",
-    "eat": 6,
-    "items": [
-      "番茄种子"
-    ],
+    "type": ["雷", "龙"],
+    "night": false,
     "works": [
-      {
-        "type": "伐木",
-        "level": 2
-      },
-      {
-        "type": "发电",
-        "level": 2
-      }
-    ]
+      { "type": "发电", "level": 2 },
+      { "type": "伐木", "level": 2 }
+    ],
+    "food": 6,
+    "breedPower": 810,
+    "price": 3380,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "dinossom lux"
   },
   {
-    "code": "065",
+    "attack": { "hp": 90, "melee": 70, "shot": 90, "defence": 80 },
+    "speed": {
+      "stamina": 100,
+      "walking": 200,
+      "running": 500,
+      "mounted": 650,
+      "transporting": null
+    },
+    "code": "65",
     "name": "滑水蛇",
-    "attr": [
-      "水"
-    ],
-    "partSkill": "滑滑水蛇",
-    "eat": 5,
-    "items": [
-      "帕鲁的体液"
-    ],
-    "works": [
-      {
-        "type": "浇水",
-        "level": 2
-      }
-    ]
+    "ride": true,
+    "type": ["水"],
+    "night": false,
+    "works": [{ "type": "浇水", "level": 2 }],
+    "food": 5,
+    "breedPower": 560,
+    "price": 5050,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "surfent"
   },
   {
-    "code": "065B",
+    "attack": { "hp": 90, "melee": 70, "shot": 90, "defence": 100 },
+    "speed": {
+      "stamina": 100,
+      "walking": 200,
+      "running": 500,
+      "mounted": 650,
+      "transporting": null
+    },
+    "code": "65B",
     "name": "流沙蛇",
-    "attr": [
-      "地"
-    ],
-    "partSkill": "滑滑沙蛇",
-    "eat": 5,
-    "items": [
-      "帕鲁的体液"
-    ],
-    "works": [
-      {
-        "type": "采集",
-        "level": 1
-      }
-    ]
+    "ride": true,
+    "type": ["地"],
+    "night": false,
+    "works": [{ "type": "采集", "level": 1 }],
+    "food": 5,
+    "breedPower": 550,
+    "price": 5140,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "surfent terra"
   },
   {
-    "code": "066",
+    "attack": { "hp": 75, "melee": 50, "shot": 105, "defence": 80 },
+    "speed": {
+      "stamina": 100,
+      "walking": 160,
+      "running": 600,
+      "mounted": 800,
+      "transporting": null
+    },
+    "code": "66",
     "name": "噬魂兽",
-    "attr": [
-      "暗"
-    ],
-    "partSkill": "冥界使者",
-    "eat": 3,
-    "items": [
-      "骨头",
-      "小型帕鲁之魂"
-    ],
+    "ride": true,
+    "type": ["暗"],
+    "night": true,
     "works": [
-      {
-        "type": "采集",
-        "level": 2
-      },
-      {
-        "type": "采矿",
-        "level": 1
-      }
-    ]
+      { "type": "采集", "level": 2 },
+      { "type": "采矿", "level": 1 }
+    ],
+    "food": 3,
+    "breedPower": 1150,
+    "price": 1570,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "maraith"
   },
   {
-    "code": "067",
+    "attack": { "hp": 80, "melee": 80, "shot": 95, "defence": 120 },
+    "speed": {
+      "stamina": 100,
+      "walking": 120,
+      "running": 300,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "67",
     "name": "碎岩龟",
-    "attr": [
-      "地"
-    ],
-    "partSkill": "钻头粉碎者",
-    "eat": 5,
-    "items": [
-      "金属矿石",
-      "优质帕鲁油"
-    ],
-    "works": [
-      {
-        "type": "采矿",
-        "level": 3
-      }
-    ]
+    "type": ["地"],
+    "night": false,
+    "works": [{ "type": "采矿", "level": 3 }],
+    "food": 5,
+    "breedPower": 850,
+    "price": 2980,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "digtoise"
   },
   {
-    "code": "068",
+    "attack": { "hp": 95, "melee": 100, "shot": 95, "defence": 80 },
+    "speed": {
+      "stamina": 100,
+      "walking": 140,
+      "running": 400,
+      "mounted": null,
+      "transporting": 270
+    },
+    "code": "68",
     "name": "猫蝠怪",
-    "attr": [
-      "暗"
-    ],
-    "partSkill": "超音波感应",
-    "eat": 5,
-    "items": [
-      "皮革",
-      "小型帕鲁之魂"
-    ],
+    "type": ["暗"],
+    "night": true,
     "works": [
-      {
-        "type": "采集",
-        "level": 2
-      },
-      {
-        "type": "采矿",
-        "level": 2
-      },
-      {
-        "type": "搬运",
-        "level": 2
-      }
-    ]
+      { "type": "采集", "level": 2 },
+      { "type": "采矿", "level": 2 },
+      { "type": "搬运", "level": 2 }
+    ],
+    "food": 5,
+    "breedPower": 750,
+    "price": 3810,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "tombat"
   },
   {
-    "code": "069",
+    "attack": { "hp": 120, "melee": 70, "shot": 70, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 170,
+      "running": 750,
+      "mounted": null,
+      "transporting": 460
+    },
+    "code": "69",
     "name": "博爱蜥",
-    "attr": [
-      "无"
-    ],
-    "partSkill": "爱心吸取",
-    "eat": 5,
-    "items": [
-      "蘑菇",
-      "蛋糕",
-      "可疑果汁",
-      "怪异果汁"
-    ],
+    "type": ["无"],
+    "night": true,
     "works": [
-      {
-        "type": "手工",
-        "level": 2
-      },
-      {
-        "type": "采矿",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 2
-      },
-      {
-        "type": "制药",
-        "level": 2
-      }
-    ]
+      { "type": "手工", "level": 2 },
+      { "type": "采矿", "level": 1 },
+      { "type": "制药", "level": 2 },
+      { "type": "搬运", "level": 2 }
+    ],
+    "food": 5,
+    "breedPower": 940,
+    "price": 2450,
+    "captureMulti": 1,
+    "malePercent": 30,
+    "en_name": "lovander"
   },
   {
-    "code": "070",
+    "attack": { "hp": 60, "melee": 100, "shot": 70, "defence": 80 },
+    "speed": {
+      "stamina": 100,
+      "walking": 98,
+      "running": 250,
+      "mounted": null,
+      "transporting": 140
+    },
+    "code": "70",
     "name": "融焰娘",
-    "attr": [
-      "火"
-    ],
-    "partSkill": "熔岩之泪",
-    "eat": 2,
-    "items": [
-      "喷火器官",
-      "优质帕鲁油"
-    ],
+    "type": ["火"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 1
-      },
-      {
-        "type": "牧场",
-        "level": 1
-      },
-      {
-        "type": "生火",
-        "level": 1
-      }
-    ]
+      { "type": "生火", "level": 1 },
+      { "type": "手工", "level": 1 },
+      { "type": "搬运", "level": 1 },
+      { "type": "牧场", "level": 1 }
+    ],
+    "food": 2,
+    "breedPower": 1405,
+    "price": 2500,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "flambelle"
   },
   {
-    "code": "071",
+    "attack": { "hp": 90, "melee": 100, "shot": 115, "defence": 90 },
+    "speed": {
+      "stamina": 150,
+      "walking": 350,
+      "running": 700,
+      "mounted": 850,
+      "transporting": 475
+    },
+    "code": "71",
     "name": "烽歌龙",
-    "attr": [
-      "火",
-      "暗"
-    ],
-    "partSkill": "大空袭击者",
-    "eat": 6,
-    "items": [
-      "骨头",
-      "金币",
-      "红宝石"
-    ],
+    "fly": true,
+    "type": ["火", "暗"],
+    "night": true,
     "works": [
-      {
-        "type": "搬运",
-        "level": 3
-      },
-      {
-        "type": "生火",
-        "level": 1
-      }
-    ]
+      { "type": "生火", "level": 1 },
+      { "type": "搬运", "level": 3 }
+    ],
+    "food": 6,
+    "breedPower": 660,
+    "price": 4360,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "vanwyrm"
   },
   {
-    "code": "071B",
+    "attack": { "hp": 90, "melee": 100, "shot": 120, "defence": 95 },
+    "speed": {
+      "stamina": 150,
+      "walking": 350,
+      "running": 700,
+      "mounted": 850,
+      "transporting": 475
+    },
+    "code": "71B",
     "name": "霜歌龙",
-    "attr": [
-      "冰",
-      "暗"
-    ],
-    "partSkill": "大空袭击者",
-    "eat": 6,
-    "items": [
-      "骨头",
-      "结冰器官",
-      "蓝宝石"
-    ],
+    "fly": true,
+    "type": ["冰", "暗"],
+    "night": true,
     "works": [
-      {
-        "type": "搬运",
-        "level": 3
-      },
-      {
-        "type": "冷却",
-        "level": 2
-      }
-    ]
+      { "type": "冷却", "level": 2 },
+      { "type": "搬运", "level": 3 }
+    ],
+    "food": 6,
+    "breedPower": 620,
+    "price": 4610,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "vanwyrm cryst"
   },
   {
-    "code": "072",
+    "attack": { "hp": 80, "melee": 100, "shot": 125, "defence": 80 },
+    "speed": {
+      "stamina": 100,
+      "walking": 160,
+      "running": 600,
+      "mounted": null,
+      "transporting": 320
+    },
+    "code": "72",
     "name": "浪刃武士",
-    "attr": [
-      "火"
-    ],
-    "partSkill": "紫电一闪",
-    "eat": 4,
-    "items": [
-      "骨头",
-      "金属铸块"
-    ],
+    "type": ["火"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "采集",
-        "level": 1
-      },
-      {
-        "type": "伐木",
-        "level": 3
-      },
-      {
-        "type": "搬运",
-        "level": 2
-      },
-      {
-        "type": "生火",
-        "level": 2
-      }
-    ]
+      { "type": "生火", "level": 2 },
+      { "type": "手工", "level": 1 },
+      { "type": "采集", "level": 1 },
+      { "type": "伐木", "level": 3 },
+      { "type": "搬运", "level": 2 }
+    ],
+    "food": 4,
+    "breedPower": 640,
+    "price": 4520,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "bushi"
   },
   {
-    "code": "073",
+    "attack": { "hp": 105, "melee": 100, "shot": 115, "defence": 80 },
+    "speed": {
+      "stamina": 160,
+      "walking": 200,
+      "running": 750,
+      "mounted": 1200,
+      "transporting": 375
+    },
+    "code": "73",
     "name": "迅雷鸟",
-    "attr": [
-      "雷"
-    ],
-    "partSkill": "天雷",
-    "eat": 7,
-    "items": [
-      "发电器官"
-    ],
+    "fly": true,
+    "type": ["雷"],
+    "night": false,
     "works": [
-      {
-        "type": "采集",
-        "level": 1
-      },
-      {
-        "type": "搬运",
-        "level": 3
-      },
-      {
-        "type": "发电",
-        "level": 2
-      }
-    ]
+      { "type": "发电", "level": 2 },
+      { "type": "采集", "level": 1 },
+      { "type": "搬运", "level": 3 }
+    ],
+    "food": 7,
+    "breedPower": 220,
+    "price": 7490,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "beakon"
   },
   {
-    "code": "074",
+    "attack": { "hp": 95, "melee": 100, "shot": 105, "defence": 120 },
+    "speed": {
+      "stamina": 150,
+      "walking": 200,
+      "running": 800,
+      "mounted": 1300,
+      "transporting": 375
+    },
+    "code": "74",
     "name": "燧火鸟",
-    "attr": [
-      "火"
-    ],
-    "partSkill": "烈焰之翼",
-    "eat": 7,
-    "items": [
-      "喷火器官"
-    ],
+    "fly": true,
+    "type": ["火"],
+    "night": false,
     "works": [
-      {
-        "type": "搬运",
-        "level": 3
-      },
-      {
-        "type": "生火",
-        "level": 3
-      }
-    ]
+      { "type": "生火", "level": 3 },
+      { "type": "搬运", "level": 3 }
+    ],
+    "food": 7,
+    "breedPower": 380,
+    "price": 6720,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "ragnahawk"
   },
   {
-    "code": "075",
+    "attack": { "hp": 90, "melee": 100, "shot": 105, "defence": 90 },
+    "speed": {
+      "stamina": 100,
+      "walking": 145,
+      "running": 440,
+      "mounted": null,
+      "transporting": 292
+    },
+    "code": "75",
     "name": "暗巫猫",
-    "attr": [
-      "暗"
-    ],
-    "partSkill": "魔导书收藏家",
-    "eat": 5,
-    "items": [
-      "皮革",
-      "暗巫猫的体毛",
-      "高等技术书"
-    ],
+    "type": ["暗"],
+    "night": true,
     "works": [
-      {
-        "type": "手工",
-        "level": 2
-      },
-      {
-        "type": "制药",
-        "level": 2
-      },
-      {
-        "type": "搬运",
-        "level": 2
-      }
-    ]
+      { "type": "手工", "level": 2 },
+      { "type": "制药", "level": 2 },
+      { "type": "搬运", "level": 2 }
+    ],
+    "food": 5,
+    "breedPower": 700,
+    "price": 4120,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "katress"
   },
   {
-    "code": "076",
+    "attack": { "hp": 90, "melee": 50, "shot": 110, "defence": 80 },
+    "speed": {
+      "stamina": 100,
+      "walking": 145,
+      "running": 440,
+      "mounted": null,
+      "transporting": 292
+    },
+    "code": "76",
     "name": "焰巫狐",
-    "attr": [
-      "火"
-    ],
-    "partSkill": "狐神大人",
-    "eat": 5,
-    "items": [
-      "喷火器官",
-      "高等技术书"
-    ],
+    "type": ["火"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 3
-      },
-      {
-        "type": "搬运",
-        "level": 2
-      },
-      {
-        "type": "生火",
-        "level": 2
-      }
-    ]
+      { "type": "生火", "level": 2 },
+      { "type": "手工", "level": 3 },
+      { "type": "搬运", "level": 2 }
+    ],
+    "food": 5,
+    "breedPower": 1160,
+    "price": 1540,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "wixen"
   },
   {
-    "code": "077",
+    "attack": { "hp": 90, "melee": 100, "shot": 115, "defence": 90 },
+    "speed": {
+      "stamina": 100,
+      "walking": 195,
+      "running": 500,
+      "mounted": null,
+      "transporting": 275
+    },
+    "code": "77",
     "name": "踏春兔",
-    "attr": [
-      "草"
-    ],
-    "partSkill": "草原飞速之星",
-    "eat": 3,
-    "items": [
-      "皮革",
-      "骨头"
-    ],
+    "type": ["草"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 3
-      },
-      {
-        "type": "采集",
-        "level": 3
-      },
-      {
-        "type": "伐木",
-        "level": 2
-      },
-      {
-        "type": "搬运",
-        "level": 2
-      },
-      {
-        "type": "播种",
-        "level": 2
-      }
-    ]
+      { "type": "播种", "level": 2 },
+      { "type": "手工", "level": 3 },
+      { "type": "采集", "level": 3 },
+      { "type": "伐木", "level": 2 },
+      { "type": "搬运", "level": 2 }
+    ],
+    "food": 3,
+    "breedPower": 990,
+    "price": 2200,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "verdash"
   },
   {
-    "code": "078",
+    "attack": { "hp": 100, "melee": 100, "shot": 100, "defence": 120 },
+    "speed": {
+      "stamina": 100,
+      "walking": 150,
+      "running": 400,
+      "mounted": null,
+      "transporting": 275
+    },
+    "code": "78",
     "name": "薇莉塔",
-    "attr": [
-      "草"
-    ],
-    "partSkill": "大地净化",
-    "eat": 3,
-    "items": [
-      "低品质药品",
-      "番茄种子"
-    ],
+    "type": ["草"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 2
-      },
-      {
-        "type": "采集",
-        "level": 2
-      },
-      {
-        "type": "搬运",
-        "level": 1
-      },
-      {
-        "type": "播种",
-        "level": 2
-      },
-      {
-        "type": "制药",
-        "level": 3
-      }
-    ]
+      { "type": "播种", "level": 2 },
+      { "type": "手工", "level": 2 },
+      { "type": "采集", "level": 2 },
+      { "type": "制药", "level": 3 },
+      { "type": "搬运", "level": 1 }
+    ],
+    "food": 3,
+    "breedPower": 1050,
+    "price": 1960,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "vaelet"
   },
   {
-    "code": "079",
+    "attack": { "hp": 110, "melee": 90, "shot": 90, "defence": 100 },
+    "speed": {
+      "stamina": 100,
+      "walking": 100,
+      "running": 400,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "79",
     "name": "绸笠蛾",
-    "attr": [
-      "冰"
-    ],
-    "partSkill": "吐丝者",
-    "eat": 5,
-    "items": [
-      "优质的布",
-      "结冰器官"
-    ],
+    "type": ["冰"],
+    "night": false,
     "works": [
-      {
-        "type": "制药",
-        "level": 2
-      },
-      {
-        "type": "冷却",
-        "level": 2
-      },
-      {
-        "type": "牧场",
-        "level": 1
-      }
-    ]
+      { "type": "制药", "level": 2 },
+      { "type": "冷却", "level": 2 },
+      { "type": "牧场", "level": 1 }
+    ],
+    "food": 5,
+    "breedPower": 450,
+    "price": 5900,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "sibelyx"
   },
   {
-    "code": "080",
+    "attack": { "hp": 110, "melee": 80, "shot": 80, "defence": 90 },
+    "speed": {
+      "stamina": 130,
+      "walking": 83,
+      "running": 630,
+      "mounted": 800,
+      "transporting": null
+    },
+    "code": "80",
     "name": "精灵龙",
-    "attr": [
-      "龙"
-    ],
-    "partSkill": "善良的圣洁之龙",
-    "eat": 6,
-    "items": [
-      "优质帕鲁油"
-    ],
-    "works": [
-      {
-        "type": "伐木",
-        "level": 2
-      }
-    ]
+    "fly": true,
+    "type": ["龙"],
+    "night": false,
+    "works": [{ "type": "伐木", "level": 2 }],
+    "food": 6,
+    "breedPower": 540,
+    "price": 5230,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "elphidran"
   },
   {
-    "code": "080B",
+    "attack": { "hp": 115, "melee": 80, "shot": 80, "defence": 95 },
+    "speed": {
+      "stamina": 130,
+      "walking": 83,
+      "running": 630,
+      "mounted": 800,
+      "transporting": null
+    },
+    "code": "80B",
     "name": "水灵龙",
-    "attr": [
-      "水",
-      "龙"
-    ],
-    "partSkill": "善良的流水之龙",
-    "eat": 6,
-    "items": [
-      "优质帕鲁油"
-    ],
+    "fly": true,
+    "type": ["龙", "水"],
+    "night": false,
     "works": [
-      {
-        "type": "伐木",
-        "level": 2
-      },
-      {
-        "type": "浇水",
-        "level": 3
-      }
-    ]
+      { "type": "浇水", "level": 3 },
+      { "type": "伐木", "level": 2 }
+    ],
+    "food": 6,
+    "breedPower": 530,
+    "price": 5320,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "elphidran aqua"
   },
   {
-    "code": "081",
+    "attack": { "hp": 70, "melee": 100, "shot": 70, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 100,
+      "running": 700,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "81",
     "name": "水灵儿",
-    "attr": [
-      "水"
-    ],
-    "partSkill": "洒水",
-    "eat": 1,
-    "items": [
-      "水灵儿的鱼肉",
-      "帕鲁的体液"
-    ],
-    "works": [
-      {
-        "type": "浇水",
-        "level": 1
-      }
-    ]
+    "type": ["水"],
+    "night": false,
+    "works": [{ "type": "浇水", "level": 1 }],
+    "food": 1,
+    "breedPower": 1260,
+    "price": 1260,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "kelpsea"
   },
   {
-    "code": "081B",
+    "attack": { "hp": 70, "melee": 100, "shot": 70, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 100,
+      "running": 700,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "81B",
     "name": "火灵儿",
-    "attr": [
-      "火"
-    ],
-    "partSkill": "熔岩泼洒",
-    "eat": 1,
-    "items": [
-      "水灵儿的鱼肉",
-      "喷火器官"
-    ],
-    "works": [
-      {
-        "type": "生火",
-        "level": 1
-      }
-    ]
+    "type": ["火"],
+    "night": false,
+    "works": [{ "type": "生火", "level": 1 }],
+    "food": 1,
+    "breedPower": 1270,
+    "price": 1240,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "kelpsea ignis"
   },
   {
-    "code": "082",
+    "attack": { "hp": 110, "melee": 70, "shot": 100, "defence": 100 },
+    "speed": {
+      "stamina": 100,
+      "walking": 150,
+      "running": 600,
+      "mounted": 800,
+      "transporting": null
+    },
+    "code": "82",
     "name": "碧海龙",
-    "attr": [
-      "水",
-      "龙"
-    ],
-    "partSkill": "水翔之舞",
-    "eat": 6,
-    "items": [
-      "布"
-    ],
-    "works": [
-      {
-        "type": "浇水",
-        "level": 3
-      }
-    ]
+    "ride": true,
+    "type": ["水", "龙"],
+    "night": false,
+    "works": [{ "type": "浇水", "level": 3 }],
+    "food": 6,
+    "breedPower": 500,
+    "price": 5600,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "azurobe"
   },
   {
-    "code": "083",
+    "attack": { "hp": 100, "melee": 140, "shot": 100, "defence": 110 },
+    "speed": {
+      "stamina": 100,
+      "walking": 280,
+      "running": 720,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "83",
     "name": "冰棘兽",
-    "attr": [
-      "冰"
-    ],
-    "partSkill": "猎龙者",
-    "eat": 7,
-    "items": [
-      "结冰器官"
-    ],
+    "type": ["冰"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "伐木",
-        "level": 2
-      },
-      {
-        "type": "冷却",
-        "level": 3
-      }
-    ]
+      { "type": "手工", "level": 1 },
+      { "type": "伐木", "level": 2 },
+      { "type": "冷却", "level": 3 }
+    ],
+    "food": 7,
+    "breedPower": 130,
+    "price": 8440,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "cryolinx"
   },
   {
-    "code": "084",
+    "attack": { "hp": 105, "melee": 100, "shot": 110, "defence": 80 },
+    "speed": {
+      "stamina": 100,
+      "walking": 180,
+      "running": 750,
+      "mounted": 900,
+      "transporting": null
+    },
+    "code": "84",
     "name": "狱焰王",
-    "attr": [
-      "火"
-    ],
-    "partSkill": "狱炎狮子",
-    "eat": 7,
-    "items": [
-      "喷火器官"
-    ],
+    "ride": true,
+    "type": ["火"],
+    "night": false,
     "works": [
-      {
-        "type": "伐木",
-        "level": 2
-      },
-      {
-        "type": "生火",
-        "level": 3
-      }
-    ]
+      { "type": "生火", "level": 3 },
+      { "type": "伐木", "level": 2 }
+    ],
+    "food": 7,
+    "breedPower": 710,
+    "price": 4040,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "blazehowl"
   },
   {
-    "code": "084B",
+    "attack": { "hp": 105, "melee": 100, "shot": 115, "defence": 80 },
+    "speed": {
+      "stamina": 100,
+      "walking": 90,
+      "running": 750,
+      "mounted": 900,
+      "transporting": null
+    },
+    "code": "84B",
     "name": "狱阎王",
-    "attr": [
-      "火",
-      "暗"
-    ],
-    "partSkill": "黑炎狮子",
-    "eat": 7,
-    "items": [
-      "喷火器官"
-    ],
+    "ride": true,
+    "type": ["火", "暗"],
+    "night": true,
     "works": [
-      {
-        "type": "伐木",
-        "level": 2
-      },
-      {
-        "type": "生火",
-        "level": 3
-      }
-    ]
+      { "type": "生火", "level": 3 },
+      { "type": "伐木", "level": 2 }
+    ],
+    "food": 7,
+    "breedPower": 670,
+    "price": 4360,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "blazehowl noct"
   },
   {
-    "code": "085",
+    "attack": { "hp": 110, "melee": 110, "shot": 100, "defence": 70 },
+    "speed": {
+      "stamina": 100,
+      "walking": 60,
+      "running": 650,
+      "mounted": null,
+      "transporting": 150
+    },
+    "code": "85",
     "name": "佩克龙",
-    "attr": [
-      "水",
-      "龙"
-    ],
-    "partSkill": "饿饿飞弹",
-    "eat": 7,
-    "items": [
-      "优质帕鲁油",
-      "红宝石"
-    ],
+    "ride": true,
+    "type": ["龙", "水"],
+    "night": false,
     "works": [
-      {
-        "type": "搬运",
-        "level": 1
-      },
-      {
-        "type": "浇水",
-        "level": 2
-      }
-    ]
+      { "type": "浇水", "level": 2 },
+      { "type": "搬运", "level": 1 }
+    ],
+    "food": 7,
+    "breedPower": 280,
+    "price": 10240,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "relaxaurus"
   },
   {
-    "code": "085B",
+    "attack": { "hp": 110, "melee": 110, "shot": 110, "defence": 75 },
+    "speed": {
+      "stamina": 100,
+      "walking": 60,
+      "running": 650,
+      "mounted": null,
+      "transporting": 150
+    },
+    "code": "85B",
     "name": "派克龙",
-    "attr": [
-      "雷",
-      "龙"
-    ],
-    "partSkill": "飞弹盛宴",
-    "eat": 7,
-    "items": [
-      "优质帕鲁油",
-      "发电器官",
-      "蓝宝石"
-    ],
+    "ride": true,
+    "type": ["龙", "雷"],
+    "night": false,
     "works": [
-      {
-        "type": "搬运",
-        "level": 1
-      },
-      {
-        "type": "发电",
-        "level": 3
-      }
-    ]
+      { "type": "发电", "level": 3 },
+      { "type": "搬运", "level": 1 }
+    ],
+    "food": 7,
+    "breedPower": 270,
+    "price": 10380,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "relaxaurus lux"
   },
   {
-    "code": "086",
+    "attack": { "hp": 120, "melee": 80, "shot": 90, "defence": 100 },
+    "speed": {
+      "stamina": 100,
+      "walking": 75,
+      "running": 350,
+      "mounted": 500,
+      "transporting": null
+    },
+    "code": "86",
     "name": "连理龙",
-    "attr": [
-      "草"
-    ],
-    "partSkill": "超载的爱情",
-    "eat": 7,
-    "items": [
-      "连理龙恐龙肉",
-      "番茄种子"
-    ],
-    "works": [
-      {
-        "type": "播种",
-        "level": 3
-      }
-    ]
+    "ride": true,
+    "type": ["草"],
+    "night": false,
+    "works": [{ "type": "播种", "level": 3 }],
+    "food": 7,
+    "breedPower": 860,
+    "price": 2920,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "broncherry"
   },
   {
-    "code": "086B",
+    "attack": { "hp": 120, "melee": 80, "shot": 95, "defence": 100 },
+    "speed": {
+      "stamina": 100,
+      "walking": 75,
+      "running": 350,
+      "mounted": 500,
+      "transporting": null
+    },
+    "code": "86B",
     "name": "海誓龙",
-    "attr": [
-      "草",
-      "水"
-    ],
-    "partSkill": "超载的爱情",
-    "eat": 7,
-    "items": [
-      "连理龙恐龙肉",
-      "生菜种子"
-    ],
-    "works": [
-      {
-        "type": "浇水",
-        "level": 3
-      }
-    ]
+    "ride": true,
+    "type": ["草", "水"],
+    "night": false,
+    "works": [{ "type": "浇水", "level": 3 }],
+    "food": 7,
+    "breedPower": 840,
+    "price": 3110,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "broncherry aqua"
   },
   {
-    "code": "087",
+    "attack": { "hp": 100, "melee": 100, "shot": 95, "defence": 100 },
+    "speed": {
+      "stamina": 100,
+      "walking": 150,
+      "running": 550,
+      "mounted": null,
+      "transporting": 350
+    },
+    "code": "87",
     "name": "花丽娜",
-    "attr": [
-      "草"
-    ],
-    "partSkill": "花精灵的祝福",
-    "eat": 3,
-    "items": [
-      "美丽花朵"
-    ],
+    "type": ["草"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 2
-      },
-      {
-        "type": "采集",
-        "level": 2
-      },
-      {
-        "type": "制药",
-        "level": 2
-      },
-      {
-        "type": "搬运",
-        "level": 1
-      },
-      {
-        "type": "播种",
-        "level": 3
-      }
-    ]
+      { "type": "播种", "level": 3 },
+      { "type": "手工", "level": 2 },
+      { "type": "采集", "level": 2 },
+      { "type": "制药", "level": 2 },
+      { "type": "搬运", "level": 1 }
+    ],
+    "food": 3,
+    "breedPower": 780,
+    "price": 3590,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "petallia"
   },
   {
-    "code": "088",
+    "attack": { "hp": 110, "melee": 100, "shot": 105, "defence": 120 },
+    "speed": {
+      "stamina": 100,
+      "walking": 80,
+      "running": 390,
+      "mounted": 550,
+      "transporting": null
+    },
+    "code": "88",
     "name": "熔岩兽",
-    "attr": [
-      "火",
-      "地"
-    ],
-    "partSkill": "贪食矿石之兽",
-    "eat": 5,
-    "items": [
-      "喷火器官"
-    ],
+    "ride": true,
+    "type": ["火", "地"],
+    "night": false,
     "works": [
-      {
-        "type": "生火",
-        "level": 3
-      },
-      {
-        "type": "采矿",
-        "level": 3
-      }
-    ]
+      { "type": "生火", "level": 3 },
+      { "type": "采矿", "level": 3 }
+    ],
+    "food": 5,
+    "breedPower": 320,
+    "price": 6940,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "reptyro"
   },
   {
-    "code": "088B",
+    "attack": { "hp": 110, "melee": 100, "shot": 105, "defence": 130 },
+    "speed": {
+      "stamina": 100,
+      "walking": 80,
+      "running": 390,
+      "mounted": 550,
+      "transporting": null
+    },
+    "code": "88B",
     "name": "寒霜兽",
-    "attr": [
-      "冰",
-      "地"
-    ],
-    "partSkill": "贪食冰霜之兽",
-    "eat": 5,
-    "items": [
-      "结冰器官"
-    ],
+    "ride": true,
+    "type": ["冰", "地"],
+    "night": false,
     "works": [
-      {
-        "type": "冷却",
-        "level": 3
-      },
-      {
-        "type": "采矿",
-        "level": 3
-      }
-    ]
+      { "type": "采矿", "level": 3 },
+      { "type": "冷却", "level": 3 }
+    ],
+    "food": 5,
+    "breedPower": 230,
+    "price": 7380,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "ice reptyro"
   },
   {
-    "code": "089",
+    "attack": { "hp": 120, "melee": 100, "shot": 85, "defence": 90 },
+    "speed": {
+      "stamina": 100,
+      "walking": 80,
+      "running": 500,
+      "mounted": 700,
+      "transporting": null
+    },
+    "code": "89",
     "name": "君王美露帕",
-    "attr": [
-      "无"
-    ],
-    "partSkill": "大力国王",
-    "eat": 7,
-    "items": [
-      "羊毛"
-    ],
-    "works": [
-      {
-        "type": "采集",
-        "level": 1
-      }
-    ]
+    "ride": true,
+    "type": ["无"],
+    "night": false,
+    "works": [{ "type": "采集", "level": 1 }],
+    "food": 7,
+    "breedPower": 470,
+    "price": 5800,
+    "captureMulti": 1,
+    "malePercent": 90,
+    "en_name": "kingpaca"
   },
   {
-    "code": "089B",
+    "attack": { "hp": 120, "melee": 100, "shot": 85, "defence": 90 },
+    "speed": {
+      "stamina": 100,
+      "walking": 80,
+      "running": 500,
+      "mounted": 700,
+      "transporting": null
+    },
+    "code": "89B",
     "name": "冰帝美露帕",
-    "attr": [
-      "冰"
-    ],
-    "partSkill": "大力国王",
-    "eat": 7,
-    "items": [
-      "羊毛",
-      "结冰器官"
-    ],
+    "ride": true,
+    "type": ["冰"],
+    "night": false,
     "works": [
-      {
-        "type": "采集",
-        "level": 1
-      },
-      {
-        "type": "冷却",
-        "level": 3
-      }
-    ]
+      { "type": "采集", "level": 1 },
+      { "type": "冷却", "level": 3 }
+    ],
+    "food": 7,
+    "breedPower": 440,
+    "price": 6100,
+    "captureMulti": 1,
+    "malePercent": 90,
+    "en_name": "ice kingpaca"
   },
   {
-    "code": "090",
+    "attack": { "hp": 150, "melee": 100, "shot": 85, "defence": 90 },
+    "speed": {
+      "stamina": 100,
+      "walking": 135,
+      "running": 430,
+      "mounted": 600,
+      "transporting": null
+    },
+    "code": "90",
     "name": "森猛犸",
-    "attr": [
-      "草"
-    ],
-    "partSkill": "盖亚粉碎者",
-    "eat": 8,
-    "items": [
-      "优质帕鲁油",
-      "皮革",
-      "森猛犸的巨兽肉"
-    ],
+    "ride": true,
+    "type": ["草"],
+    "night": false,
     "works": [
-      {
-        "type": "伐木",
-        "level": 2
-      },
-      {
-        "type": "采矿",
-        "level": 2
-      },
-      {
-        "type": "播种",
-        "level": 2
-      }
-    ]
+      { "type": "播种", "level": 2 },
+      { "type": "伐木", "level": 2 },
+      { "type": "采矿", "level": 2 }
+    ],
+    "food": 8,
+    "breedPower": 300,
+    "price": 9450,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "mammorest"
   },
   {
-    "code": "090B",
+    "attack": { "hp": 150, "melee": 100, "shot": 85, "defence": 90 },
+    "speed": {
+      "stamina": 100,
+      "walking": 135,
+      "running": 430,
+      "mounted": 600,
+      "transporting": null
+    },
+    "code": "90B",
     "name": "雪猛犸",
-    "attr": [
-      "冰"
-    ],
-    "partSkill": "冰霜粉碎者",
-    "eat": 8,
-    "items": [
-      "优质帕鲁油",
-      "皮革",
-      "森猛犸的巨兽肉"
-    ],
+    "ride": true,
+    "type": ["冰"],
+    "night": false,
     "works": [
-      {
-        "type": "伐木",
-        "level": 2
-      },
-      {
-        "type": "采矿",
-        "level": 2
-      },
-      {
-        "type": "冷却",
-        "level": 2
-      }
-    ]
+      { "type": "伐木", "level": 2 },
+      { "type": "采矿", "level": 2 },
+      { "type": "冷却", "level": 2 }
+    ],
+    "food": 8,
+    "breedPower": 290,
+    "price": 9580,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "mammorest cryst"
   },
   {
-    "code": "091",
+    "attack": { "hp": 140, "melee": 100, "shot": 80, "defence": 100 },
+    "speed": {
+      "stamina": 100,
+      "walking": 100,
+      "running": 365,
+      "mounted": 550,
+      "transporting": 150
+    },
+    "code": "91",
     "name": "白绒雪怪",
-    "attr": [
-      "冰"
-    ],
-    "partSkill": "雪山巨人",
-    "eat": 8,
-    "items": [
-      "结冰器官",
-      "美丽花朵"
-    ],
+    "ride": true,
+    "type": ["冰"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 2
-      },
-      {
-        "type": "伐木",
-        "level": 3
-      },
-      {
-        "type": "搬运",
-        "level": 4
-      },
-      {
-        "type": "冷却",
-        "level": 2
-      }
-    ]
+      { "type": "手工", "level": 2 },
+      { "type": "伐木", "level": 3 },
+      { "type": "冷却", "level": 2 },
+      { "type": "搬运", "level": 4 }
+    ],
+    "food": 8,
+    "breedPower": 460,
+    "price": 5900,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "wumpo"
   },
   {
-    "code": "091B",
+    "attack": { "hp": 140, "melee": 100, "shot": 80, "defence": 110 },
+    "speed": {
+      "stamina": 100,
+      "walking": 100,
+      "running": 365,
+      "mounted": 550,
+      "transporting": 150
+    },
+    "code": "91B",
     "name": "绿苔绒怪",
-    "attr": [
-      "草"
-    ],
-    "partSkill": "南国巨人",
-    "eat": 8,
-    "items": [
-      "生菜种子",
-      "番茄种子",
-      "美丽花朵"
-    ],
+    "ride": true,
+    "type": ["草"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 2
-      },
-      {
-        "type": "伐木",
-        "level": 3
-      },
-      {
-        "type": "搬运",
-        "level": 4
-      },
-      {
-        "type": "播种",
-        "level": 1
-      }
-    ]
+      { "type": "播种", "level": 1 },
+      { "type": "手工", "level": 2 },
+      { "type": "伐木", "level": 3 },
+      { "type": "搬运", "level": 4 }
+    ],
+    "food": 8,
+    "breedPower": 480,
+    "price": 5700,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "wumpo botan"
   },
   {
-    "code": "092",
+    "attack": { "hp": 120, "melee": 100, "shot": 100, "defence": 120 },
+    "speed": {
+      "stamina": 100,
+      "walking": 110,
+      "running": 500,
+      "mounted": null,
+      "transporting": 110
+    },
+    "code": "92",
     "name": "铠格力斯",
-    "attr": [
-      "草",
-      "地"
-    ],
-    "partSkill": "坚硬盔甲",
-    "eat": 6,
-    "items": [
-      "蜂蜜"
-    ],
+    "type": ["地", "草"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "伐木",
-        "level": 3
-      },
-      {
-        "type": "搬运",
-        "level": 3
-      },
-      {
-        "type": "播种",
-        "level": 1
-      }
-    ]
+      { "type": "播种", "level": 1 },
+      { "type": "手工", "level": 1 },
+      { "type": "伐木", "level": 3 },
+      { "type": "搬运", "level": 3 }
+    ],
+    "food": 6,
+    "breedPower": 340,
+    "price": 6830,
+    "captureMulti": 1,
+    "malePercent": 85,
+    "en_name": "warsect"
   },
   {
-    "code": "093",
+    "attack": { "hp": 110, "melee": 110, "shot": 110, "defence": 90 },
+    "speed": {
+      "stamina": 100,
+      "walking": 100,
+      "running": 750,
+      "mounted": 1050,
+      "transporting": null
+    },
+    "code": "93",
     "name": "云海鹿",
-    "attr": [
-      "无"
-    ],
-    "partSkill": "风云",
-    "eat": 6,
-    "items": [
-      "皮革",
-      "角"
-    ],
-    "works": [
-      {
-        "type": "伐木",
-        "level": 2
-      }
-    ]
+    "ride": true,
+    "type": ["无"],
+    "night": false,
+    "works": [{ "type": "伐木", "level": 2 }],
+    "food": 6,
+    "breedPower": 980,
+    "price": 2250,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "fenglope"
   },
   {
-    "code": "094",
+    "attack": { "hp": 100, "melee": 100, "shot": 105, "defence": 110 },
+    "speed": {
+      "stamina": 100,
+      "walking": 100,
+      "running": 550,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "94",
     "name": "夜幕魔蝠",
-    "attr": [
-      "暗"
-    ],
-    "partSkill": "窃取生命",
-    "eat": 5,
-    "items": [
-      "布",
-      "小型帕鲁之魂"
-    ],
-    "works": [
-      {
-        "type": "制药",
-        "level": 3
-      }
-    ]
+    "type": ["暗"],
+    "night": true,
+    "works": [{ "type": "制药", "level": 3 }],
+    "food": 5,
+    "breedPower": 1010,
+    "price": 2100,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "felbat"
   },
   {
-    "code": "095",
+    "attack": { "hp": 105, "melee": 100, "shot": 100, "defence": 100 },
+    "speed": {
+      "stamina": 220,
+      "walking": 240,
+      "running": 800,
+      "mounted": 950,
+      "transporting": 470
+    },
+    "code": "95",
     "name": "天羽龙",
-    "attr": [
-      "龙"
-    ],
-    "partSkill": "天空龙的慈爱",
-    "eat": 4,
-    "items": [
-      "优质帕鲁油"
-    ],
+    "fly": true,
+    "type": ["龙"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "采集",
-        "level": 2
-      },
-      {
-        "type": "采矿",
-        "level": 2
-      },
-      {
-        "type": "搬运",
-        "level": 3
-      }
-    ]
+      { "type": "手工", "level": 1 },
+      { "type": "采集", "level": 2 },
+      { "type": "采矿", "level": 2 },
+      { "type": "搬运", "level": 3 }
+    ],
+    "food": 4,
+    "breedPower": 350,
+    "price": 6830,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "quivern"
   },
   {
-    "code": "096",
+    "attack": { "hp": 100, "melee": 150, "shot": 125, "defence": 120 },
+    "speed": {
+      "stamina": 100,
+      "walking": 400,
+      "running": 700,
+      "mounted": 900,
+      "transporting": null
+    },
+    "code": "96",
     "name": "焰煌",
-    "attr": [
-      "火"
-    ],
-    "partSkill": "熔岩凯撒",
-    "eat": 9,
-    "items": [
-      "石炭",
-      "喷火器官"
-    ],
+    "ride": true,
+    "type": ["火"],
+    "night": false,
     "works": [
-      {
-        "type": "生火",
-        "level": 3
-      },
-      {
-        "type": "采矿",
-        "level": 4
-      }
-    ]
+      { "type": "生火", "level": 3 },
+      { "type": "采矿", "level": 4 }
+    ],
+    "food": 9,
+    "breedPower": 10,
+    "price": 10520,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "blazamut"
   },
   {
-    "code": "097",
+    "attack": { "hp": 100, "melee": 100, "shot": 125, "defence": 100 },
+    "speed": {
+      "stamina": 170,
+      "walking": 100,
+      "running": 700,
+      "mounted": 1100,
+      "transporting": 450
+    },
+    "code": "97",
     "name": "雷冥鸟",
-    "attr": [
-      "暗"
-    ],
-    "partSkill": "冥府之翼",
-    "eat": 8,
-    "items": [
-      "毒腺",
-      "中型帕鲁之魂"
-    ],
-    "works": [
-      {
-        "type": "搬运",
-        "level": 3
-      }
-    ]
+    "fly": true,
+    "type": ["暗"],
+    "night": true,
+    "works": [{ "type": "搬运", "level": 3 }],
+    "food": 8,
+    "breedPower": 190,
+    "price": 7840,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "helzephyr"
   },
   {
-    "code": "098",
+    "attack": { "hp": 100, "melee": 100, "shot": 125, "defence": 125 },
+    "speed": {
+      "stamina": 300,
+      "walking": 150,
+      "running": 600,
+      "mounted": 800,
+      "transporting": null
+    },
+    "code": "98",
     "name": "魔渊龙",
-    "attr": [
-      "暗",
-      "龙"
-    ],
-    "partSkill": "黑铠之龙",
-    "eat": 9,
-    "items": [
-      "帕鲁金属锭",
-      "纯水晶"
-    ],
+    "fly": true,
+    "type": ["龙", "暗"],
+    "night": true,
     "works": [
-      {
-        "type": "手工",
-        "level": 1
-      },
-      {
-        "type": "采矿",
-        "level": 4
-      }
-    ]
+      { "type": "手工", "level": 1 },
+      { "type": "采矿", "level": 4 }
+    ],
+    "food": 9,
+    "breedPower": 150,
+    "price": 8200,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "astegon"
   },
   {
-    "code": "099",
+    "attack": { "hp": 100, "melee": 100, "shot": 100, "defence": 130 },
+    "speed": {
+      "stamina": 100,
+      "walking": 200,
+      "running": 1000,
+      "mounted": null,
+      "transporting": null
+    },
+    "code": "99",
     "name": "冥铠蝎",
-    "attr": [
-      "暗",
-      "地"
-    ],
-    "partSkill": "钢铁之蝎",
-    "eat": 7,
-    "items": [
-      "石炭",
-      "毒腺"
-    ],
+    "type": ["暗", "地"],
+    "night": true,
     "works": [
-      {
-        "type": "伐木",
-        "level": 2
-      },
-      {
-        "type": "采矿",
-        "level": 3
-      }
-    ]
+      { "type": "伐木", "level": 2 },
+      { "type": "采矿", "level": 3 }
+    ],
+    "food": 7,
+    "breedPower": 260,
+    "price": 7050,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "menasting"
   },
   {
+    "attack": { "hp": 120, "melee": 130, "shot": 130, "defence": 100 },
+    "speed": {
+      "stamina": 100,
+      "walking": 160,
+      "running": 800,
+      "mounted": null,
+      "transporting": 480
+    },
     "code": "100",
     "name": "阿努比斯",
-    "attr": [
-      "地"
-    ],
-    "partSkill": "沙漠守护神",
-    "eat": 6,
-    "items": [
-      "骨头",
-      "大型帕鲁之魂",
-      "革新技术书"
-    ],
+    "type": ["地"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 4
-      },
-      {
-        "type": "采矿",
-        "level": 3
-      },
-      {
-        "type": "搬运",
-        "level": 2
-      }
-    ]
+      { "type": "手工", "level": 4 },
+      { "type": "采矿", "level": 3 },
+      { "type": "搬运", "level": 2 }
+    ],
+    "food": 6,
+    "breedPower": 570,
+    "price": 4960,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "anubis"
   },
   {
+    "attack": { "hp": 130, "melee": 150, "shot": 120, "defence": 100 },
+    "speed": {
+      "stamina": 100,
+      "walking": 175,
+      "running": 525,
+      "mounted": 700,
+      "transporting": null
+    },
     "code": "101",
     "name": "覆海龙",
-    "attr": [
-      "水",
-      "龙"
-    ],
-    "partSkill": "呼唤风暴的深海龙",
-    "eat": 7,
-    "items": [
-      "帕鲁的体液"
-    ],
-    "works": [
-      {
-        "type": "浇水",
-        "level": 4
-      }
-    ]
+    "ride": true,
+    "type": ["龙", "水"],
+    "night": false,
+    "works": [{ "type": "浇水", "level": 4 }],
+    "food": 7,
+    "breedPower": 310,
+    "price": 9320,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "jormuntide"
   },
   {
+    "attack": { "hp": 130, "melee": 150, "shot": 130, "defence": 100 },
+    "speed": {
+      "stamina": 100,
+      "walking": 175,
+      "running": 525,
+      "mounted": 700,
+      "transporting": null
+    },
     "code": "101B",
     "name": "腾炎龙",
-    "attr": [
-      "火",
-      "龙"
-    ],
-    "partSkill": "呼唤风暴的熔岩龙",
-    "eat": 7,
-    "items": [
-      "优质帕鲁油",
-      "喷火器官"
-    ],
-    "works": [
-      {
-        "type": "生火",
-        "level": 4
-      }
-    ]
+    "ride": true,
+    "type": ["龙", "火"],
+    "night": false,
+    "works": [{ "type": "生火", "level": 4 }],
+    "food": 7,
+    "breedPower": 315,
+    "price": 9500,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "jormuntide ignis"
   },
   {
+    "attack": { "hp": 120, "melee": 100, "shot": 105, "defence": 105 },
+    "speed": {
+      "stamina": 350,
+      "walking": 200,
+      "running": 850,
+      "mounted": 1100,
+      "transporting": null
+    },
     "code": "102",
     "name": "朱雀",
-    "attr": [
-      "火"
-    ],
-    "partSkill": "炎之翼",
-    "eat": 8,
-    "items": [
-      "喷火器官"
-    ],
-    "works": [
-      {
-        "type": "生火",
-        "level": 3
-      }
-    ]
+    "fly": true,
+    "type": ["火"],
+    "night": false,
+    "works": [{ "type": "生火", "level": 3 }],
+    "food": 8,
+    "breedPower": 50,
+    "price": 9840,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "suzaku"
   },
   {
+    "attack": { "hp": 125, "melee": 100, "shot": 105, "defence": 105 },
+    "speed": {
+      "stamina": 350,
+      "walking": 200,
+      "running": 850,
+      "mounted": 1100,
+      "transporting": null
+    },
     "code": "102B",
     "name": "清雀",
-    "attr": [
-      "水"
-    ],
-    "partSkill": "水之翼",
-    "eat": 8,
-    "items": [
-      "帕鲁的体液"
-    ],
-    "works": [
-      {
-        "type": "浇水",
-        "level": 3
-      }
-    ]
+    "fly": true,
+    "type": ["水"],
+    "night": false,
+    "works": [{ "type": "浇水", "level": 3 }],
+    "food": 8,
+    "breedPower": 30,
+    "price": 10110,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "suzaku aqua"
   },
   {
+    "attack": { "hp": 105, "melee": 120, "shot": 100, "defence": 100 },
+    "speed": {
+      "stamina": 100,
+      "walking": 140,
+      "running": 470,
+      "mounted": null,
+      "transporting": 210
+    },
     "code": "103",
     "name": "暴电熊",
-    "attr": [
-      "雷"
-    ],
-    "partSkill": "黄色重型战车",
-    "eat": 7,
-    "items": [
-      "发电器官",
-      "皮革"
-    ],
+    "ride": true,
+    "type": ["雷"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 2
-      },
-      {
-        "type": "伐木",
-        "level": 2
-      },
-      {
-        "type": "搬运",
-        "level": 3
-      },
-      {
-        "type": "发电",
-        "level": 3
-      }
-    ]
+      { "type": "发电", "level": 3 },
+      { "type": "手工", "level": 2 },
+      { "type": "伐木", "level": 2 },
+      { "type": "搬运", "level": 3 }
+    ],
+    "food": 7,
+    "breedPower": 200,
+    "price": 7720,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "grizzbolt"
   },
   {
+    "attack": { "hp": 110, "melee": 100, "shot": 110, "defence": 105 },
+    "speed": {
+      "stamina": 100,
+      "walking": 100,
+      "running": 450,
+      "mounted": null,
+      "transporting": null
+    },
     "code": "104",
     "name": "百合女王",
-    "attr": [
-      "草"
-    ],
-    "partSkill": "丰饶女神",
-    "eat": 6,
-    "items": [
-      "低品质药品",
-      "美丽花朵",
-      "革新技术书"
-    ],
+    "type": ["草"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 3
-      },
-      {
-        "type": "采集",
-        "level": 2
-      },
-      {
-        "type": "播种",
-        "level": 4
-      },
-      {
-        "type": "制药",
-        "level": 3
-      }
-    ]
+      { "type": "播种", "level": 4 },
+      { "type": "手工", "level": 3 },
+      { "type": "采集", "level": 2 },
+      { "type": "制药", "level": 3 }
+    ],
+    "food": 6,
+    "breedPower": 250,
+    "price": 7160,
+    "captureMulti": 1,
+    "malePercent": 30,
+    "en_name": "lyleen"
   },
   {
+    "attack": { "hp": 110, "melee": 100, "shot": 110, "defence": 115 },
+    "speed": {
+      "stamina": 100,
+      "walking": 100,
+      "running": 450,
+      "mounted": null,
+      "transporting": null
+    },
     "code": "104B",
     "name": "黑月女王",
-    "attr": [
-      "暗"
-    ],
-    "partSkill": "幽光女神",
-    "eat": 6,
-    "items": [
-      "低品质药品",
-      "美丽花朵",
-      "革新技术书"
-    ],
+    "type": ["暗"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 3
-      },
-      {
-        "type": "采集",
-        "level": 2
-      },
-      {
-        "type": "制药",
-        "level": 3
-      }
-    ]
+      { "type": "手工", "level": 3 },
+      { "type": "采集", "level": 2 },
+      { "type": "制药", "level": 3 }
+    ],
+    "food": 6,
+    "breedPower": 210,
+    "price": 7610,
+    "captureMulti": 1,
+    "malePercent": 30,
+    "en_name": "lyleen noct"
   },
   {
+    "attack": { "hp": 100, "melee": 100, "shot": 105, "defence": 110 },
+    "speed": {
+      "stamina": 230,
+      "walking": 200,
+      "running": 1000,
+      "mounted": 1400,
+      "transporting": 500
+    },
     "code": "105",
     "name": "荷鲁斯",
-    "attr": [
-      "火"
-    ],
-    "partSkill": "灼热捕食者",
-    "eat": 8,
-    "items": [
-      "喷火器官"
-    ],
+    "fly": true,
+    "type": ["火"],
+    "night": false,
     "works": [
-      {
-        "type": "搬运",
-        "level": 3
-      },
-      {
-        "type": "生火",
-        "level": 3
-      }
-    ]
+      { "type": "生火", "level": 3 },
+      { "type": "搬运", "level": 3 }
+    ],
+    "food": 8,
+    "breedPower": 370,
+    "price": 6720,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "faleris"
   },
   {
+    "attack": { "hp": 100, "melee": 100, "shot": 130, "defence": 100 },
+    "speed": {
+      "stamina": 100,
+      "walking": 185,
+      "running": 900,
+      "mounted": null,
+      "transporting": 250
+    },
     "code": "106",
     "name": "波鲁杰克斯",
-    "attr": [
-      "龙",
-      "雷"
-    ],
-    "partSkill": "凶猛的迅雷龙",
-    "eat": 7,
-    "items": [
-      "发电器官"
-    ],
+    "type": ["龙", "雷"],
+    "night": false,
     "works": [
-      {
-        "type": "手工",
-        "level": 2
-      },
-      {
-        "type": "搬运",
-        "level": 3
-      },
-      {
-        "type": "发电",
-        "level": 4
-      }
-    ]
+      { "type": "发电", "level": 4 },
+      { "type": "手工", "level": 2 },
+      { "type": "搬运", "level": 3 }
+    ],
+    "food": 7,
+    "breedPower": 140,
+    "price": 8320,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "orserk"
   },
   {
+    "attack": { "hp": 120, "melee": 130, "shot": 120, "defence": 140 },
+    "speed": {
+      "stamina": 250,
+      "walking": 80,
+      "running": 850,
+      "mounted": 1200,
+      "transporting": null
+    },
     "code": "107",
     "name": "异构格里芬",
-    "attr": [
-      "暗"
-    ],
-    "partSkill": "基因改造",
-    "eat": 8,
-    "items": [
-      "帕鲁金属锭",
-      "碳纤维",
-      "革新技术书"
-    ],
-    "works": [
-      {
-        "type": "采集",
-        "level": 1
-      }
-    ]
+    "fly": true,
+    "type": ["暗"],
+    "night": true,
+    "works": [{ "type": "采集", "level": 1 }],
+    "food": 8,
+    "breedPower": 60,
+    "price": 9060,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "shadowbeak"
   },
   {
+    "attack": { "hp": 130, "melee": 110, "shot": 120, "defence": 145 },
+    "speed": {
+      "stamina": 100,
+      "walking": 100,
+      "running": 800,
+      "mounted": 1400,
+      "transporting": null
+    },
     "code": "108",
     "name": "圣光骑士",
-    "attr": [
-      "无"
-    ],
-    "partSkill": "天翔圣骑士",
-    "eat": 9,
-    "items": [
-      "帕鲁金属锭",
-      "钻石"
-    ],
+    "ride": true,
+    "type": ["无"],
+    "night": false,
     "works": [
-      {
-        "type": "伐木",
-        "level": 2
-      },
-      {
-        "type": "采矿",
-        "level": 2
-      }
-    ]
+      { "type": "伐木", "level": 2 },
+      { "type": "采矿", "level": 2 }
+    ],
+    "food": 9,
+    "breedPower": 80,
+    "price": 8810,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "paladius"
   },
   {
+    "attack": { "hp": 130, "melee": 100, "shot": 145, "defence": 120 },
+    "speed": {
+      "stamina": 100,
+      "walking": 350,
+      "running": 900,
+      "mounted": 1600,
+      "transporting": null
+    },
     "code": "109",
     "name": "混沌骑士",
-    "attr": [
-      "暗"
-    ],
-    "partSkill": "深渊黑骑士",
-    "eat": 9,
-    "items": [
-      "帕鲁金属锭",
-      "大型帕鲁之魂"
-    ],
+    "ride": true,
+    "type": ["暗"],
+    "night": true,
     "works": [
-      {
-        "type": "伐木",
-        "level": 2
-      },
-      {
-        "type": "采矿",
-        "level": 2
-      }
-    ]
+      { "type": "伐木", "level": 2 },
+      { "type": "采矿", "level": 2 }
+    ],
+    "food": 9,
+    "breedPower": 70,
+    "price": 8930,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "necromus"
   },
   {
+    "attack": { "hp": 140, "melee": 100, "shot": 140, "defence": 120 },
+    "speed": {
+      "stamina": 300,
+      "walking": 120,
+      "running": 1000,
+      "mounted": 1500,
+      "transporting": null
+    },
     "code": "110",
     "name": "唤冬兽",
-    "attr": [
-      "冰"
-    ],
-    "partSkill": "冰天马",
-    "eat": 7,
-    "items": [
-      "钻石",
-      "结冰器官"
-    ],
-    "works": [
-      {
-        "type": "冷却",
-        "level": 4
-      }
-    ]
+    "fly": true,
+    "type": ["冰"],
+    "night": false,
+    "works": [{ "type": "冷却", "level": 4 }],
+    "food": 7,
+    "breedPower": 120,
+    "price": 8440,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "frostallion"
   },
   {
+    "attack": { "hp": 140, "melee": 100, "shot": 140, "defence": 135 },
+    "speed": {
+      "stamina": 300,
+      "walking": 120,
+      "running": 1000,
+      "mounted": 1500,
+      "transporting": null
+    },
     "code": "110B",
     "name": "唤夜兽",
-    "attr": [
-      "暗"
-    ],
-    "partSkill": "黑天马",
-    "eat": 7,
-    "items": [
-      "纯水晶",
-      "大型帕鲁之魂"
-    ],
-    "works": [
-      {
-        "type": "采集",
-        "level": 4
-      }
-    ]
+    "fly": true,
+    "type": ["暗"],
+    "night": true,
+    "works": [{ "type": "采集", "level": 4 }],
+    "food": 7,
+    "breedPower": 100,
+    "price": 8560,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "frostallion noct"
   },
   {
+    "attack": { "hp": 110, "melee": 100, "shot": 140, "defence": 110 },
+    "speed": {
+      "stamina": 100,
+      "walking": 800,
+      "running": 1700,
+      "mounted": 3300,
+      "transporting": null
+    },
     "code": "111",
     "name": "空涡龙",
-    "attr": [
-      "龙"
-    ],
-    "partSkill": "地毯式轰炸",
-    "eat": 9,
-    "items": [
-      "钻石",
-      "纯水晶",
-      "聚合物",
-      "碳纤维"
-    ],
-    "works": [
-      {
-        "type": "采集",
-        "level": 3
-      }
-    ]
+    "fly": true,
+    "type": ["龙"],
+    "night": false,
+    "works": [{ "type": "采集", "level": 3 }],
+    "food": 9,
+    "breedPower": 90,
+    "price": 8680,
+    "captureMulti": 1,
+    "malePercent": 50,
+    "en_name": "jetragon"
   }
 ]

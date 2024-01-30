@@ -41,22 +41,22 @@ export function PalsFilters(props: PalsFiltersProps) {
       .filter((pal) => {
         return (
           selectedWorks.includes('ALL') ||
-          selectedWorks.some((w) => pal.works.some(work => work.type === w))
+          selectedWorks.some((w) => pal.works.some((work) => work.type === w))
         );
       });
     onChange(result);
   }, [selectedAttrs, selectedWorks]);
 
   return (
-    <div className="px-20 py-5">
-      <div className="mb-2">属性</div>
+    <div className="flex flex-col items-start gap-4 px-20 py-5">
       <Filters
+        title="属性"
         options={attrs}
         value={selectedAttrs}
         onChange={setSelectedAttrs}
       />
-      <div className="mb-2 mt-8">工作适应性</div>
       <Filters
+        title="工作适应性"
         options={work}
         value={selectedWorks}
         onChange={setSelectedWorks}

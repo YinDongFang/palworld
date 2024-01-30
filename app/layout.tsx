@@ -1,4 +1,5 @@
 import '#/styles/globals.css';
+import '#/styles/mapbox-gl.css';
 import { GlobalNav } from '#/ui/global-nav';
 import { Metadata } from 'next';
 
