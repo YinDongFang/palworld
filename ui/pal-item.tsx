@@ -8,7 +8,7 @@ interface PalItemProps {
 }
 
 function Attribute({ value }: { value: string }) {
-  const colorMap = {
+  const colorMap: Record<string, string> = {
     水: '#1b72d3',
     雷: '#d0ac0d',
     火: '#df512b',
@@ -32,6 +32,7 @@ function Attribute({ value }: { value: string }) {
         width={50}
         height={50}
         src={`/icons/${value}.png`}
+        alt={value}
       />
       <span>{value}属性</span>
     </div>
@@ -46,6 +47,7 @@ function WorkItem({ name, level }: { name: string; level: number }) {
         width={16}
         height={16}
         src={`/icons/${name}.png`}
+        alt={name}
       />
       <span>{name}</span>
       <span className="ml-2 text-[12px]">
@@ -60,12 +62,14 @@ function BreedCount({ count }: { count: number }) {
     <div className="flex items-center">
       <span>进食量：</span>
       <div className="flex gap-1">
-        {new Array(count).fill(0).map((_) => (
+        {new Array(count).fill(0).map((_, i) => (
           <Image
+            key={i}
             className="h-[16px] w-[16px] object-contain"
             width={16}
             height={16}
             src="/icons/breed.png"
+            alt="进食量"
           />
         ))}
       </div>
@@ -79,7 +83,14 @@ function DropItems({ items }: { items: string[] }) {
 
 export function PalItem(props: PalItemProps) {
   const { pal, onClick } = props;
-  const { code, name, attr, works, eat, items } = pal;
+  const { code, name, type, works, food, items } = pal;
+
+  const fullcode =
+    parseInt(code) < 10
+      ? `00${code}`
+      : parseInt(code) < 100
+      ? `0${code}`
+      : code;
 
   const ref = useRef(null);
   const [inViewport] = useInViewport(ref);
@@ -88,30 +99,31 @@ export function PalItem(props: PalItemProps) {
     return (
       <>
         <Image
-          src={`/pals/${code}.png`}
+          src={`/pals/${fullcode}.png`}
           width={80}
           height={80}
           className="h-[80px] w-[80px] object-contain"
+          alt={name}
         />
         <div className="flex flex-1 flex-col items-start justify-between">
           <div className="flex w-full flex-wrap gap-2">
             <div>
               <span className="text-[12px]">No.</span>
-              <span className="text-[16px]">{code}</span>
+              <span className="text-[16px]">{fullcode}</span>
             </div>
             <div className="text-[16px]">{name}</div>
             <div className="ml-1 flex gap-1">
-              {attr.map((v) => (
-                <Attribute value={v} />
+              {type.map((v) => (
+                <Attribute value={v} key={v} />
               ))}
             </div>
           </div>
           <div className="flex flex-wrap gap-x-4 gap-y-0.5">
-            {works.map(({type, level}) => (
-              <WorkItem name={type} level={level} />
+            {works.map(({ type, level }) => (
+              <WorkItem name={type} level={level} key={type} />
             ))}
           </div>
-          <BreedCount count={eat} />
+          <BreedCount count={food} />
           <DropItems items={items} />
         </div>
       </>

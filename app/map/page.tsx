@@ -2,7 +2,6 @@
 import { useRef, useEffect } from 'react';
 import { PalList } from '#/ui/pal-list';
 import mapboxgl from 'mapbox-gl';
-// import
 
 export default function Page() {
   const containerRef = useRef(null);

@@ -35,7 +35,7 @@ export function PalsFilters(props: PalsFiltersProps) {
       .filter((pal) => {
         return (
           selectedAttrs.includes('ALL') ||
-          selectedAttrs.some((attr) => pal.attr.includes(attr))
+          selectedAttrs.some((attr) => pal.type.includes(attr))
         );
       })
       .filter((pal) => {

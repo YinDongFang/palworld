@@ -22,7 +22,10 @@
     "price": 1000,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "lamball"
+    "en_name": "lamball",
+    "items": ["羊毛", "棉悠悠的羊肉"],
+    "partSkill": "茸茸盾牌",
+    "pastureItems": ["羊毛"]
   },
   {
     "attack": { "hp": 70, "melee": 70, "shot": 70, "defence": 70 },
@@ -48,7 +51,9 @@
     "price": 1000,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "cattiva"
+    "en_name": "cattiva",
+    "items": ["红色野莓"],
+    "partSkill": "跟猫借手手"
   },
   {
     "attack": { "hp": 60, "melee": 70, "shot": 60, "defence": 60 },
@@ -72,7 +77,10 @@
     "price": 1000,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "chikipi"
+    "en_name": "chikipi",
+    "items": ["蛋", "皮皮鸡的鸡肉"],
+    "partSkill": "产蛋",
+    "pastureItems": ["蛋"]
   },
   {
     "attack": { "hp": 75, "melee": 70, "shot": 70, "defence": 70 },
@@ -99,7 +107,9 @@
     "price": 1010,
     "captureMulti": 0,
     "malePercent": 50,
-    "en_name": "lifmunk"
+    "en_name": "lifmunk",
+    "items": ["野莓种子", "低品质药品"],
+    "partSkill": "翠叶鼠出击"
   },
   {
     "attack": { "hp": 65, "melee": 70, "shot": 75, "defence": 70 },
@@ -120,7 +130,9 @@
     "price": 1040,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "foxparks"
+    "en_name": "foxparks",
+    "items": ["皮革", "喷火器官"],
+    "partSkill": "抱抱火焰"
   },
   {
     "attack": { "hp": 60, "melee": 80, "shot": 80, "defence": 60 },
@@ -145,7 +157,9 @@
     "price": 1120,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "fuack"
+    "en_name": "fuack",
+    "items": ["皮革", "帕鲁的体液"],
+    "partSkill": "乘风破浪"
   },
   {
     "attack": { "hp": 60, "melee": 60, "shot": 75, "defence": 70 },
@@ -170,7 +184,9 @@
     "price": 1030,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "sparkit"
+    "en_name": "sparkit",
+    "items": ["发电器官"],
+    "partSkill": "静电"
   },
   {
     "attack": { "hp": 80, "melee": 100, "shot": 70, "defence": 70 },
@@ -197,7 +213,9 @@
     "price": 1280,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "tanzee"
+    "en_name": "tanzee",
+    "items": ["蘑菇"],
+    "partSkill": "猴急步枪"
   },
   {
     "attack": { "hp": 75, "melee": 100, "shot": 70, "defence": 75 },
@@ -218,7 +236,9 @@
     "price": 2950,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "rooby"
+    "en_name": "rooby",
+    "items": ["皮革", "喷火器官"],
+    "partSkill": "微小火种"
   },
   {
     "attack": { "hp": 70, "melee": 70, "shot": 75, "defence": 70 },
@@ -244,7 +264,9 @@
     "price": 1080,
     "captureMulti": 0,
     "malePercent": 50,
-    "en_name": "pengullet"
+    "en_name": "pengullet",
+    "items": ["结冰器官", "帕鲁的体液"],
+    "partSkill": "企丸丸发射"
   },
   {
     "attack": { "hp": 95, "melee": 70, "shot": 95, "defence": 95 },
@@ -271,7 +293,9 @@
     "price": 5410,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "penking"
+    "en_name": "penking",
+    "items": ["结冰器官", "企丸王的羽饰"],
+    "partSkill": "勇敢的海之战士"
   },
   {
     "attack": { "hp": 70, "melee": 70, "shot": 75, "defence": 70 },
@@ -292,7 +316,9 @@
     "price": 1060,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "jolthog"
+    "en_name": "jolthog",
+    "items": ["发电器官"],
+    "partSkill": "电击炸弹"
   },
   {
     "attack": { "hp": 70, "melee": 70, "shot": 75, "defence": 80 },
@@ -313,7 +339,9 @@
     "price": 1070,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "jolthog cryst"
+    "en_name": "jolthog cryst",
+    "items": ["结冰器官"],
+    "partSkill": "冻结炸弹"
   },
   {
     "attack": { "hp": 70, "melee": 100, "shot": 70, "defence": 70 },
@@ -334,7 +362,9 @@
     "price": 1310,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "gumoss"
+    "en_name": "gumoss",
+    "items": ["野莓种子", "叶泥泥的种子"],
+    "partSkill": "樵夫啦啦队"
   },
   {
     "attack": { "hp": 70, "melee": 70, "shot": 70, "defence": 70 },
@@ -358,7 +388,10 @@
     "price": 1000,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "vixy"
+    "en_name": "vixy",
+    "items": ["皮革", "骨头"],
+    "partSkill": "挖掘指导",
+    "pastureItems": ["帕鲁球", "高级帕鲁球", "箭", "金币"]
   },
   {
     "attack": { "hp": 70, "melee": 70, "shot": 70, "defence": 80 },
@@ -379,7 +412,9 @@
     "price": 1050,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "hoocrates"
+    "en_name": "hoocrates",
+    "items": ["纤维", "高等技术书"],
+    "partSkill": "暗影睿智"
   },
   {
     "attack": { "hp": 70, "melee": 70, "shot": 60, "defence": 70 },
@@ -400,7 +435,9 @@
     "price": 1000,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "teafant"
+    "en_name": "teafant",
+    "items": ["帕鲁的体液"],
+    "partSkill": "疗伤之浴"
   },
   {
     "attack": { "hp": 70, "melee": 70, "shot": 70, "defence": 70 },
@@ -425,7 +462,9 @@
     "price": 1050,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "depresso"
+    "en_name": "depresso",
+    "items": ["毒腺"],
+    "partSkill": "摄取咖啡因"
   },
   {
     "attack": { "hp": 70, "melee": 100, "shot": 70, "defence": 75 },
@@ -449,7 +488,10 @@
     "price": 1420,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "cremis"
+    "en_name": "cremis",
+    "items": ["羊毛"],
+    "partSkill": "蓬松毛毛",
+    "pastureItems": ["羊毛"]
   },
   {
     "attack": { "hp": 70, "melee": 100, "shot": 75, "defence": 60 },
@@ -474,7 +516,9 @@
     "price": 1330,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "daedream"
+    "en_name": "daedream",
+    "items": ["毒腺", "小型帕鲁之魂"],
+    "partSkill": "逐梦者"
   },
   {
     "attack": { "hp": 80, "melee": 100, "shot": 70, "defence": 70 },
@@ -496,8 +540,9 @@
     "price": 1680,
     "captureMulti": 1,
     "malePercent": 50,
-
-    "en_name": "rushoar"
+    "en_name": "rushoar",
+    "items": ["草莽猪的猪肉", "皮革", "骨头"],
+    "partSkill": "坚硬头壳"
   },
   {
     "attack": { "hp": 75, "melee": 70, "shot": 85, "defence": 70 },
@@ -518,7 +563,9 @@
     "price": 1480,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "nox"
+    "en_name": "nox",
+    "items": ["皮革", "小型帕鲁之魂"],
+    "partSkill": "冷娇"
   },
   {
     "attack": { "hp": 65, "melee": 100, "shot": 80, "defence": 50 },
@@ -543,7 +590,9 @@
     "price": 1360,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "fuddler"
+    "en_name": "fuddler",
+    "items": ["皮革"],
+    "partSkill": "探测矿石"
   },
   {
     "attack": { "hp": 60, "melee": 100, "shot": 60, "defence": 70 },
@@ -568,7 +617,9 @@
     "price": 1200,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "killamari"
+    "en_name": "killamari",
+    "items": ["毒腺"],
+    "partSkill": "炸鱿鱼"
   },
   {
     "attack": { "hp": 70, "melee": 70, "shot": 60, "defence": 70 },
@@ -589,7 +640,10 @@
     "price": 1000,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "mau"
+    "en_name": "mau",
+    "items": ["金币"],
+    "partSkill": "招财猫",
+    "pastureItems": ["金币"]
   },
   {
     "attack": { "hp": 70, "melee": 70, "shot": 65, "defence": 70 },
@@ -613,7 +667,10 @@
     "price": 1010,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "mau cryst"
+    "en_name": "mau cryst",
+    "items": ["结冰器官", "蓝宝石"],
+    "partSkill": "招财猫",
+    "pastureItems": ["金币"]
   },
   {
     "attack": { "hp": 80, "melee": 100, "shot": 70, "defence": 80 },
@@ -638,7 +695,9 @@
     "price": 2860,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "celaray"
+    "en_name": "celaray",
+    "items": ["帕鲁的体液"],
+    "partSkill": "微风滑翔"
   },
   {
     "attack": { "hp": 80, "melee": 110, "shot": 90, "defence": 75 },
@@ -660,7 +719,9 @@
     "price": 1920,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "direhowl"
+    "en_name": "direhowl",
+    "items": ["皮革", "红宝石", "金币"],
+    "partSkill": "猎狼骑手"
   },
   {
     "attack": { "hp": 60, "melee": 80, "shot": 75, "defence": 70 },
@@ -681,7 +742,9 @@
     "price": 1090,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "tocotoco"
+    "en_name": "tocotoco",
+    "items": ["火药", "炸蛋鸟的羽毛"],
+    "partSkill": "炸蛋发射器"
   },
   {
     "attack": { "hp": 75, "melee": 100, "shot": 65, "defence": 70 },
@@ -708,7 +771,9 @@
     "price": 1220,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "flopie"
+    "en_name": "flopie",
+    "items": ["低品质药品", "小麦种子"],
+    "partSkill": "兔兔助手"
   },
   {
     "attack": { "hp": 90, "melee": 100, "shot": 50, "defence": 80 },
@@ -729,7 +794,10 @@
     "price": 2620,
     "captureMulti": 1,
     "malePercent": 20,
-    "en_name": "mozzarina"
+    "en_name": "mozzarina",
+    "items": ["波霸牛的牛肉", "牛奶"],
+    "partSkill": "产奶",
+    "pastureItems": ["牛奶"]
   },
   {
     "attack": { "hp": 80, "melee": 80, "shot": 80, "defence": 80 },
@@ -756,7 +824,9 @@
     "price": 1140,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "bristla"
+    "en_name": "bristla",
+    "items": ["生菜种子", "小麦种子"],
+    "partSkill": "公主的视线"
   },
   {
     "attack": { "hp": 90, "melee": 90, "shot": 90, "defence": 75 },
@@ -781,7 +851,9 @@
     "price": 1840,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "gobfin"
+    "en_name": "gobfin",
+    "items": ["帕鲁的体液"],
+    "partSkill": "易怒鲨鲨"
   },
   {
     "attack": { "hp": 90, "melee": 90, "shot": 90, "defence": 75 },
@@ -806,7 +878,9 @@
     "price": 1800,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "gobfin ignis"
+    "en_name": "gobfin ignis",
+    "items": ["喷火器官"],
+    "partSkill": "易怒鲨鲨"
   },
   {
     "attack": { "hp": 80, "melee": 70, "shot": 70, "defence": 70 },
@@ -832,7 +906,9 @@
     "price": 1020,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "hangyu"
+    "en_name": "hangyu",
+    "items": ["纤维"],
+    "partSkill": "空中秋千"
   },
   {
     "attack": { "hp": 80, "melee": 70, "shot": 80, "defence": 70 },
@@ -859,7 +935,9 @@
     "price": 1020,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "hangyu cryst"
+    "en_name": "hangyu cryst",
+    "items": ["纤维", "结冰器官"],
+    "partSkill": "寒空秋千"
   },
   {
     "attack": { "hp": 100, "melee": 100, "shot": 90, "defence": 90 },
@@ -886,7 +964,9 @@
     "price": 6200,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "mossanda"
+    "en_name": "mossanda",
+    "items": ["蘑菇", "皮革", "番茄种子"],
+    "partSkill": "不良熊猫"
   },
   {
     "attack": { "hp": 100, "melee": 100, "shot": 100, "defence": 100 },
@@ -913,7 +993,9 @@
     "price": 6610,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "mossanda lux"
+    "en_name": "mossanda lux",
+    "items": ["蘑菇", "皮革", "发电器官"],
+    "partSkill": "不良熊猫"
   },
   {
     "attack": { "hp": 70, "melee": 70, "shot": 70, "defence": 90 },
@@ -934,7 +1016,10 @@
     "price": 1450,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "woolipop"
+    "en_name": "woolipop",
+    "items": ["棉花糖", "优质帕鲁油"],
+    "partSkill": "糖果甜心",
+    "pastureItems": ["棉花糖"]
   },
   {
     "attack": { "hp": 100, "melee": 70, "shot": 70, "defence": 90 },
@@ -958,7 +1043,10 @@
     "price": 2510,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "caprity"
+    "en_name": "caprity",
+    "items": ["灌木羊的香草肉", "红色野莓", "角"],
+    "partSkill": "采摘野莓",
+    "pastureItems": ["红色野莓"]
   },
   {
     "attack": { "hp": 90, "melee": 90, "shot": 75, "defence": 90 },
@@ -980,7 +1068,10 @@
     "price": 2740,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "melpaca"
+    "en_name": "melpaca",
+    "items": ["羊毛", "皮革"],
+    "partSkill": "蓬蓬羊毛",
+    "pastureItems": ["羊毛"]
   },
   {
     "attack": { "hp": 95, "melee": 70, "shot": 80, "defence": 80 },
@@ -1002,7 +1093,9 @@
     "price": 2620,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "eikthyrdeer"
+    "en_name": "eikthyrdeer",
+    "items": ["紫霞鹿的鹿肉", "皮革", "角"],
+    "partSkill": "森林守护者"
   },
   {
     "attack": { "hp": 95, "melee": 70, "shot": 80, "defence": 80 },
@@ -1024,7 +1117,9 @@
     "price": 2680,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "eikthyrdeer terra"
+    "en_name": "eikthyrdeer terra",
+    "items": ["祇岳鹿的鹿肉", "皮革", "角"],
+    "partSkill": "山脉守护者"
   },
   {
     "attack": { "hp": 100, "melee": 100, "shot": 95, "defence": 80 },
@@ -1046,7 +1141,9 @@
     "price": 6300,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "nitewing"
+    "en_name": "nitewing",
+    "items": ["皮革"],
+    "partSkill": "旅伴"
   },
   {
     "attack": { "hp": 75, "melee": 100, "shot": 65, "defence": 70 },
@@ -1071,7 +1168,9 @@
     "price": 1160,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "ribbuny"
+    "en_name": "ribbuny",
+    "items": ["皮革", "美丽花朵"],
+    "partSkill": "巧手"
   },
   {
     "attack": { "hp": 95, "melee": 150, "shot": 100, "defence": 85 },
@@ -1097,7 +1196,9 @@
     "price": 4780,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "incineram"
+    "en_name": "incineram",
+    "items": ["皮革", "角"],
+    "partSkill": "焰爪猎人"
   },
   {
     "attack": { "hp": 95, "melee": 150, "shot": 105, "defence": 85 },
@@ -1122,7 +1223,9 @@
     "price": 4870,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "incineram noct"
+    "en_name": "incineram noct",
+    "items": ["皮革", "角"],
+    "partSkill": "影爪猎人"
   },
   {
     "attack": { "hp": 70, "melee": 100, "shot": 80, "defence": 80 },
@@ -1146,7 +1249,9 @@
     "price": 5700,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "cinnamoth"
+    "en_name": "cinnamoth",
+    "items": ["蜂蜜", "生菜种子", "小麦种子"],
+    "partSkill": "神秘鳞粉"
   },
   {
     "attack": { "hp": 85, "melee": 100, "shot": 95, "defence": 95 },
@@ -1171,7 +1276,9 @@
     "price": 3520,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "arsox"
+    "en_name": "arsox",
+    "items": ["喷火器管", "角"],
+    "partSkill": "温暖之躯"
   },
   {
     "attack": { "hp": 100, "melee": 100, "shot": 70, "defence": 95 },
@@ -1196,7 +1303,9 @@
     "price": 4690,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "dumud"
+    "en_name": "dumud",
+    "items": ["趴趴鲶的鱼肉", "优质帕鲁油"],
+    "partSkill": "改善土质"
   },
   {
     "attack": { "hp": 75, "melee": 80, "shot": 95, "defence": 80 },
@@ -1217,7 +1326,9 @@
     "price": 1840,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "cawgnito"
+    "en_name": "cawgnito",
+    "items": ["骨头", "毒腺", "小型帕鲁之魂"],
+    "partSkill": "幻影突袭"
   },
   {
     "attack": { "hp": 80, "melee": 90, "shot": 80, "defence": 50 },
@@ -1242,7 +1353,9 @@
     "price": 1720,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "leezpunk"
+    "en_name": "leezpunk",
+    "items": ["铜钥匙", "银钥匙"],
+    "partSkill": "第六感"
   },
   {
     "attack": { "hp": 80, "melee": 90, "shot": 80, "defence": 50 },
@@ -1268,7 +1381,9 @@
     "price": 1640,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "leezpunk ignis"
+    "en_name": "leezpunk ignis",
+    "items": ["喷火器官", "银钥匙"],
+    "partSkill": "第六感"
   },
   {
     "attack": { "hp": 80, "melee": 130, "shot": 100, "defence": 80 },
@@ -1289,7 +1404,9 @@
     "price": 2400,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "loupmoon"
+    "en_name": "loupmoon",
+    "items": ["骨头"],
+    "partSkill": "黑暗中的闪亮利爪"
   },
   {
     "attack": { "hp": 75, "melee": 120, "shot": 85, "defence": 60 },
@@ -1311,7 +1428,9 @@
     "price": 2010,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "galeclaw"
+    "en_name": "galeclaw",
+    "items": ["皮革", "天擒鸟的鸟肉"],
+    "partSkill": "天擒鸟滑翔"
   },
   {
     "attack": { "hp": 90, "melee": 100, "shot": 105, "defence": 80 },
@@ -1339,7 +1458,9 @@
     "price": 2050,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "robinquill"
+    "en_name": "robinquill",
+    "items": ["箭", "小麦种子"],
+    "partSkill": "鹰眼"
   },
   {
     "attack": { "hp": 90, "melee": 100, "shot": 105, "defence": 80 },
@@ -1366,7 +1487,9 @@
     "price": 2150,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "robinquill terra"
+    "en_name": "robinquill terra",
+    "items": ["箭", "小麦种子"],
+    "partSkill": "鹰眼"
   },
   {
     "attack": { "hp": 90, "melee": 110, "shot": 95, "defence": 90 },
@@ -1391,7 +1514,9 @@
     "price": 2010,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "gorirat"
+    "en_name": "gorirat",
+    "items": ["皮革", "骨头"],
+    "partSkill": "火力全开大猩猩模式"
   },
   {
     "attack": { "hp": 80, "melee": 100, "shot": 90, "defence": 90 },
@@ -1420,7 +1545,10 @@
     "price": 1880,
     "captureMulti": 1,
     "malePercent": 10,
-    "en_name": "beegarde"
+    "en_name": "beegarde",
+    "items": ["蜂蜜"],
+    "partSkill": "工蜂",
+    "pastureItems": ["蜂蜜"]
   },
   {
     "attack": { "hp": 90, "melee": 100, "shot": 105, "defence": 100 },
@@ -1447,7 +1575,9 @@
     "price": 6830,
     "captureMulti": 1,
     "malePercent": 10,
-    "en_name": "elizabee"
+    "en_name": "elizabee",
+    "items": ["蜂蜜", "女皇蜂之杖"],
+    "partSkill": "女王蜂的统率"
   },
   {
     "attack": { "hp": 110, "melee": 100, "shot": 80, "defence": 80 },
@@ -1469,7 +1599,9 @@
     "price": 5510,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "grintale"
+    "en_name": "grintale",
+    "items": ["优质帕鲁油"],
+    "partSkill": "丰润之躯"
   },
   {
     "attack": { "hp": 60, "melee": 100, "shot": 60, "defence": 60 },
@@ -1493,7 +1625,9 @@
     "price": 1180,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "swee"
+    "en_name": "swee",
+    "items": ["羊毛"],
+    "partSkill": "毛茸茸茸茸"
   },
   {
     "attack": { "hp": 100, "melee": 100, "shot": 90, "defence": 90 },
@@ -1518,7 +1652,9 @@
     "price": 6400,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "sweepa"
+    "en_name": "sweepa",
+    "items": ["羊毛"],
+    "partSkill": "毛茸茸之王"
   },
   {
     "attack": { "hp": 90, "melee": 100, "shot": 80, "defence": 80 },
@@ -1543,7 +1679,9 @@
     "price": 3450,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "chillet"
+    "en_name": "chillet",
+    "items": ["皮革"],
+    "partSkill": "扭扭鼬鼬"
   },
   {
     "attack": { "hp": 80, "melee": 110, "shot": 105, "defence": 105 },
@@ -1568,7 +1706,9 @@
     "price": 4280,
     "captureMulti": 0,
     "malePercent": 50,
-    "en_name": "univolt"
+    "en_name": "univolt",
+    "items": ["角", "皮革", "发电器官"],
+    "partSkill": "疾风迅雷"
   },
   {
     "attack": { "hp": 90, "melee": 100, "shot": 95, "defence": 105 },
@@ -1589,7 +1729,9 @@
     "price": 3730,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "foxcicle"
+    "en_name": "foxcicle",
+    "items": ["皮革", "结冰器官"],
+    "partSkill": "极光的指引"
   },
   {
     "attack": { "hp": 100, "melee": 110, "shot": 95, "defence": 90 },
@@ -1614,7 +1756,9 @@
     "price": 6720,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "pyrin"
+    "en_name": "pyrin",
+    "items": ["喷火器官", "皮革"],
+    "partSkill": "赤兔马"
   },
   {
     "attack": { "hp": 100, "melee": 110, "shot": 95, "defence": 90 },
@@ -1639,7 +1783,9 @@
     "price": 7270,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "pyrin noct"
+    "en_name": "pyrin noct",
+    "items": ["喷火器官", "皮革"],
+    "partSkill": "黑兔马"
   },
   {
     "attack": { "hp": 100, "melee": 80, "shot": 85, "defence": 110 },
@@ -1664,7 +1810,9 @@
     "price": 2800,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "reindrix"
+    "en_name": "reindrix",
+    "items": ["严冬鹿的鹿肉", "皮革", "角", "结冰器官"],
+    "partSkill": "冰凉之躯"
   },
   {
     "attack": { "hp": 90, "melee": 100, "shot": 100, "defence": 80 },
@@ -1686,7 +1834,9 @@
     "price": 3880,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "rayhound"
+    "en_name": "rayhound",
+    "items": ["发电器官"],
+    "partSkill": "跳跃力"
   },
   {
     "attack": { "hp": 100, "melee": 70, "shot": 115, "defence": 100 },
@@ -1708,7 +1858,9 @@
     "price": 3170,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "kitsun"
+    "en_name": "kitsun",
+    "items": ["喷火器官", "皮革"],
+    "partSkill": "心无杂念"
   },
   {
     "attack": { "hp": 70, "melee": 110, "shot": 80, "defence": 70 },
@@ -1733,7 +1885,9 @@
     "price": 1390,
     "captureMulti": 1,
     "malePercent": 20,
-    "en_name": "dazzi"
+    "en_name": "dazzi",
+    "items": ["发电器官"],
+    "partSkill": "雷电姑娘"
   },
   {
     "attack": { "hp": 90, "melee": 80, "shot": 100, "defence": 90 },
@@ -1758,7 +1912,9 @@
     "price": 1760,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "lunaris"
+    "en_name": "lunaris",
+    "items": ["帕鲁矿碎块"],
+    "partSkill": "反重力"
   },
   {
     "attack": { "hp": 110, "melee": 90, "shot": 85, "defence": 90 },
@@ -1783,7 +1939,9 @@
     "price": 3240,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "dinossom"
+    "en_name": "dinossom",
+    "items": ["小麦种子"],
+    "partSkill": "馥郁花香之龙"
   },
   {
     "attack": { "hp": 110, "melee": 90, "shot": 90, "defence": 90 },
@@ -1807,7 +1965,9 @@
     "price": 3380,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "dinossom lux"
+    "en_name": "dinossom lux",
+    "items": ["番茄种子"],
+    "partSkill": "落雷绽放之龙"
   },
   {
     "attack": { "hp": 90, "melee": 70, "shot": 90, "defence": 80 },
@@ -1829,7 +1989,9 @@
     "price": 5050,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "surfent"
+    "en_name": "surfent",
+    "items": ["帕鲁的体液"],
+    "partSkill": "滑滑水蛇"
   },
   {
     "attack": { "hp": 90, "melee": 70, "shot": 90, "defence": 100 },
@@ -1851,7 +2013,9 @@
     "price": 5140,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "surfent terra"
+    "en_name": "surfent terra",
+    "items": ["帕鲁的体液"],
+    "partSkill": "滑滑沙蛇"
   },
   {
     "attack": { "hp": 75, "melee": 50, "shot": 105, "defence": 80 },
@@ -1876,7 +2040,9 @@
     "price": 1570,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "maraith"
+    "en_name": "maraith",
+    "items": ["骨头", "小型帕鲁之魂"],
+    "partSkill": "冥界使者"
   },
   {
     "attack": { "hp": 80, "melee": 80, "shot": 95, "defence": 120 },
@@ -1897,7 +2063,9 @@
     "price": 2980,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "digtoise"
+    "en_name": "digtoise",
+    "items": ["金属矿石", "优质帕鲁油"],
+    "partSkill": "钻头粉碎者"
   },
   {
     "attack": { "hp": 95, "melee": 100, "shot": 95, "defence": 80 },
@@ -1922,7 +2090,9 @@
     "price": 3810,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "tombat"
+    "en_name": "tombat",
+    "items": ["皮革", "小型帕鲁之魂"],
+    "partSkill": "超音波感应"
   },
   {
     "attack": { "hp": 120, "melee": 70, "shot": 70, "defence": 70 },
@@ -1948,7 +2118,9 @@
     "price": 2450,
     "captureMulti": 1,
     "malePercent": 30,
-    "en_name": "lovander"
+    "en_name": "lovander",
+    "items": ["蘑菇", "蛋糕", "可疑果汁", "怪异果汁"],
+    "partSkill": "爱心吸取"
   },
   {
     "attack": { "hp": 60, "melee": 100, "shot": 70, "defence": 80 },
@@ -1974,7 +2146,10 @@
     "price": 2500,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "flambelle"
+    "en_name": "flambelle",
+    "items": ["喷火器官", "优质帕鲁油"],
+    "partSkill": "熔岩之泪",
+    "pastureItems": ["喷火器官"]
   },
   {
     "attack": { "hp": 90, "melee": 100, "shot": 115, "defence": 90 },
@@ -1999,7 +2174,9 @@
     "price": 4360,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "vanwyrm"
+    "en_name": "vanwyrm",
+    "items": ["骨头", "金币", "红宝石"],
+    "partSkill": "大空袭击者"
   },
   {
     "attack": { "hp": 90, "melee": 100, "shot": 120, "defence": 95 },
@@ -2024,7 +2201,9 @@
     "price": 4610,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "vanwyrm cryst"
+    "en_name": "vanwyrm cryst",
+    "items": ["骨头", "结冰器官", "蓝宝石"],
+    "partSkill": "大空袭击者"
   },
   {
     "attack": { "hp": 80, "melee": 100, "shot": 125, "defence": 80 },
@@ -2051,7 +2230,9 @@
     "price": 4520,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "bushi"
+    "en_name": "bushi",
+    "items": ["骨头", "金属铸块"],
+    "partSkill": "紫电一闪"
   },
   {
     "attack": { "hp": 105, "melee": 100, "shot": 115, "defence": 80 },
@@ -2077,7 +2258,9 @@
     "price": 7490,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "beakon"
+    "en_name": "beakon",
+    "items": ["发电器官"],
+    "partSkill": "天雷"
   },
   {
     "attack": { "hp": 95, "melee": 100, "shot": 105, "defence": 120 },
@@ -2102,7 +2285,9 @@
     "price": 6720,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "ragnahawk"
+    "en_name": "ragnahawk",
+    "items": ["喷火器官"],
+    "partSkill": "烈焰之翼"
   },
   {
     "attack": { "hp": 90, "melee": 100, "shot": 105, "defence": 90 },
@@ -2127,7 +2312,9 @@
     "price": 4120,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "katress"
+    "en_name": "katress",
+    "items": ["皮革", "暗巫猫的体毛", "高等技术书"],
+    "partSkill": "魔导书收藏家"
   },
   {
     "attack": { "hp": 90, "melee": 50, "shot": 110, "defence": 80 },
@@ -2152,7 +2339,9 @@
     "price": 1540,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "wixen"
+    "en_name": "wixen",
+    "items": ["喷火器官", "高等技术书"],
+    "partSkill": "狐神大人"
   },
   {
     "attack": { "hp": 90, "melee": 100, "shot": 115, "defence": 90 },
@@ -2179,7 +2368,9 @@
     "price": 2200,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "verdash"
+    "en_name": "verdash",
+    "items": ["皮革", "骨头"],
+    "partSkill": "草原飞速之星"
   },
   {
     "attack": { "hp": 100, "melee": 100, "shot": 100, "defence": 120 },
@@ -2206,7 +2397,9 @@
     "price": 1960,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "vaelet"
+    "en_name": "vaelet",
+    "items": ["低品质药品", "番茄种子"],
+    "partSkill": "大地净化"
   },
   {
     "attack": { "hp": 110, "melee": 90, "shot": 90, "defence": 100 },
@@ -2231,7 +2424,10 @@
     "price": 5900,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "sibelyx"
+    "en_name": "sibelyx",
+    "items": ["优质的布", "结冰器官"],
+    "partSkill": "吐丝者",
+    "pastureItems": ["优质的布"]
   },
   {
     "attack": { "hp": 110, "melee": 80, "shot": 80, "defence": 90 },
@@ -2253,7 +2449,9 @@
     "price": 5230,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "elphidran"
+    "en_name": "elphidran",
+    "items": ["优质帕鲁油"],
+    "partSkill": "善良的圣洁之龙"
   },
   {
     "attack": { "hp": 115, "melee": 80, "shot": 80, "defence": 95 },
@@ -2278,7 +2476,9 @@
     "price": 5320,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "elphidran aqua"
+    "en_name": "elphidran aqua",
+    "items": ["优质帕鲁油"],
+    "partSkill": "善良的流水之龙"
   },
   {
     "attack": { "hp": 70, "melee": 100, "shot": 70, "defence": 70 },
@@ -2299,7 +2499,9 @@
     "price": 1260,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "kelpsea"
+    "en_name": "kelpsea",
+    "items": ["水灵儿的鱼肉", "帕鲁的体液"],
+    "partSkill": "洒水"
   },
   {
     "attack": { "hp": 70, "melee": 100, "shot": 70, "defence": 70 },
@@ -2320,7 +2522,9 @@
     "price": 1240,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "kelpsea ignis"
+    "en_name": "kelpsea ignis",
+    "items": ["水灵儿的鱼肉", "喷火器官"],
+    "partSkill": "熔岩泼洒"
   },
   {
     "attack": { "hp": 110, "melee": 70, "shot": 100, "defence": 100 },
@@ -2342,7 +2546,9 @@
     "price": 5600,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "azurobe"
+    "en_name": "azurobe",
+    "items": ["布"],
+    "partSkill": "水翔之舞"
   },
   {
     "attack": { "hp": 100, "melee": 140, "shot": 100, "defence": 110 },
@@ -2367,7 +2573,9 @@
     "price": 8440,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "cryolinx"
+    "en_name": "cryolinx",
+    "items": ["结冰器官"],
+    "partSkill": "猎龙者"
   },
   {
     "attack": { "hp": 105, "melee": 100, "shot": 110, "defence": 80 },
@@ -2392,7 +2600,9 @@
     "price": 4040,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "blazehowl"
+    "en_name": "blazehowl",
+    "items": ["喷火器官"],
+    "partSkill": "狱炎狮子"
   },
   {
     "attack": { "hp": 105, "melee": 100, "shot": 115, "defence": 80 },
@@ -2417,7 +2627,9 @@
     "price": 4360,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "blazehowl noct"
+    "en_name": "blazehowl noct",
+    "items": ["喷火器官"],
+    "partSkill": "黑炎狮子"
   },
   {
     "attack": { "hp": 110, "melee": 110, "shot": 100, "defence": 70 },
@@ -2442,7 +2654,9 @@
     "price": 10240,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "relaxaurus"
+    "en_name": "relaxaurus",
+    "items": ["优质帕鲁油", "红宝石"],
+    "partSkill": "饿饿飞弹"
   },
   {
     "attack": { "hp": 110, "melee": 110, "shot": 110, "defence": 75 },
@@ -2467,7 +2681,9 @@
     "price": 10380,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "relaxaurus lux"
+    "en_name": "relaxaurus lux",
+    "items": ["优质帕鲁油", "发电器官", "蓝宝石"],
+    "partSkill": "飞弹盛宴"
   },
   {
     "attack": { "hp": 120, "melee": 80, "shot": 90, "defence": 100 },
@@ -2489,7 +2705,9 @@
     "price": 2920,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "broncherry"
+    "en_name": "broncherry",
+    "items": ["连理龙恐龙肉", "番茄种子"],
+    "partSkill": "超载的爱情"
   },
   {
     "attack": { "hp": 120, "melee": 80, "shot": 95, "defence": 100 },
@@ -2511,7 +2729,9 @@
     "price": 3110,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "broncherry aqua"
+    "en_name": "broncherry aqua",
+    "items": ["连理龙恐龙肉", "生菜种子"],
+    "partSkill": "超载的爱情"
   },
   {
     "attack": { "hp": 100, "melee": 100, "shot": 95, "defence": 100 },
@@ -2538,7 +2758,9 @@
     "price": 3590,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "petallia"
+    "en_name": "petallia",
+    "items": ["美丽花朵"],
+    "partSkill": "花精灵的祝福"
   },
   {
     "attack": { "hp": 110, "melee": 100, "shot": 105, "defence": 120 },
@@ -2563,7 +2785,9 @@
     "price": 6940,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "reptyro"
+    "en_name": "reptyro",
+    "items": ["喷火器官"],
+    "partSkill": "贪食矿石之兽"
   },
   {
     "attack": { "hp": 110, "melee": 100, "shot": 105, "defence": 130 },
@@ -2588,7 +2812,9 @@
     "price": 7380,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "ice reptyro"
+    "en_name": "ice reptyro",
+    "items": ["结冰器官"],
+    "partSkill": "贪食冰霜之兽"
   },
   {
     "attack": { "hp": 120, "melee": 100, "shot": 85, "defence": 90 },
@@ -2610,7 +2836,9 @@
     "price": 5800,
     "captureMulti": 1,
     "malePercent": 90,
-    "en_name": "kingpaca"
+    "en_name": "kingpaca",
+    "items": ["羊毛"],
+    "partSkill": "大力国王"
   },
   {
     "attack": { "hp": 120, "melee": 100, "shot": 85, "defence": 90 },
@@ -2635,7 +2863,9 @@
     "price": 6100,
     "captureMulti": 1,
     "malePercent": 90,
-    "en_name": "ice kingpaca"
+    "en_name": "ice kingpaca",
+    "items": ["羊毛", "结冰器官"],
+    "partSkill": "大力国王"
   },
   {
     "attack": { "hp": 150, "melee": 100, "shot": 85, "defence": 90 },
@@ -2661,7 +2891,9 @@
     "price": 9450,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "mammorest"
+    "en_name": "mammorest",
+    "items": ["优质帕鲁油", "皮革", "森猛犸的巨兽肉"],
+    "partSkill": "盖亚粉碎者"
   },
   {
     "attack": { "hp": 150, "melee": 100, "shot": 85, "defence": 90 },
@@ -2687,7 +2919,9 @@
     "price": 9580,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "mammorest cryst"
+    "en_name": "mammorest cryst",
+    "items": ["优质帕鲁油", "皮革", "森猛犸的巨兽肉"],
+    "partSkill": "冰霜粉碎者"
   },
   {
     "attack": { "hp": 140, "melee": 100, "shot": 80, "defence": 100 },
@@ -2714,7 +2948,9 @@
     "price": 5900,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "wumpo"
+    "en_name": "wumpo",
+    "items": ["结冰器官", "美丽花朵"],
+    "partSkill": "雪山巨人"
   },
   {
     "attack": { "hp": 140, "melee": 100, "shot": 80, "defence": 110 },
@@ -2741,7 +2977,9 @@
     "price": 5700,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "wumpo botan"
+    "en_name": "wumpo botan",
+    "items": ["生菜种子", "番茄种子", "美丽花朵"],
+    "partSkill": "南国巨人"
   },
   {
     "attack": { "hp": 120, "melee": 100, "shot": 100, "defence": 120 },
@@ -2767,7 +3005,9 @@
     "price": 6830,
     "captureMulti": 1,
     "malePercent": 85,
-    "en_name": "warsect"
+    "en_name": "warsect",
+    "items": ["蜂蜜"],
+    "partSkill": "坚硬盔甲"
   },
   {
     "attack": { "hp": 110, "melee": 110, "shot": 110, "defence": 90 },
@@ -2789,7 +3029,9 @@
     "price": 2250,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "fenglope"
+    "en_name": "fenglope",
+    "items": ["皮革", "角"],
+    "partSkill": "风云"
   },
   {
     "attack": { "hp": 100, "melee": 100, "shot": 105, "defence": 110 },
@@ -2810,7 +3052,9 @@
     "price": 2100,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "felbat"
+    "en_name": "felbat",
+    "items": ["布", "小型帕鲁之魂"],
+    "partSkill": "窃取生命"
   },
   {
     "attack": { "hp": 105, "melee": 100, "shot": 100, "defence": 100 },
@@ -2837,7 +3081,9 @@
     "price": 6830,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "quivern"
+    "en_name": "quivern",
+    "items": ["优质帕鲁油"],
+    "partSkill": "天空龙的慈爱"
   },
   {
     "attack": { "hp": 100, "melee": 150, "shot": 125, "defence": 120 },
@@ -2862,7 +3108,9 @@
     "price": 10520,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "blazamut"
+    "en_name": "blazamut",
+    "items": ["石炭", "喷火器官"],
+    "partSkill": "熔岩凯撒"
   },
   {
     "attack": { "hp": 100, "melee": 100, "shot": 125, "defence": 100 },
@@ -2884,7 +3132,9 @@
     "price": 7840,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "helzephyr"
+    "en_name": "helzephyr",
+    "items": ["毒腺", "中型帕鲁之魂"],
+    "partSkill": "冥府之翼"
   },
   {
     "attack": { "hp": 100, "melee": 100, "shot": 125, "defence": 125 },
@@ -2909,7 +3159,9 @@
     "price": 8200,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "astegon"
+    "en_name": "astegon",
+    "items": ["帕鲁金属锭", "纯水晶"],
+    "partSkill": "黑铠之龙"
   },
   {
     "attack": { "hp": 100, "melee": 100, "shot": 100, "defence": 130 },
@@ -2933,7 +3185,9 @@
     "price": 7050,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "menasting"
+    "en_name": "menasting",
+    "items": ["石炭", "毒腺"],
+    "partSkill": "钢铁之蝎"
   },
   {
     "attack": { "hp": 120, "melee": 130, "shot": 130, "defence": 100 },
@@ -2958,7 +3212,9 @@
     "price": 4960,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "anubis"
+    "en_name": "anubis",
+    "items": ["骨头", "大型帕鲁之魂", "革新技术书"],
+    "partSkill": "沙漠守护神"
   },
   {
     "attack": { "hp": 130, "melee": 150, "shot": 120, "defence": 100 },
@@ -2980,7 +3236,9 @@
     "price": 9320,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "jormuntide"
+    "en_name": "jormuntide",
+    "items": ["帕鲁的体液"],
+    "partSkill": "呼唤风暴的深海龙"
   },
   {
     "attack": { "hp": 130, "melee": 150, "shot": 130, "defence": 100 },
@@ -3002,7 +3260,9 @@
     "price": 9500,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "jormuntide ignis"
+    "en_name": "jormuntide ignis",
+    "items": ["优质帕鲁油", "喷火器官"],
+    "partSkill": "呼唤风暴的熔岩龙"
   },
   {
     "attack": { "hp": 120, "melee": 100, "shot": 105, "defence": 105 },
@@ -3024,7 +3284,9 @@
     "price": 9840,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "suzaku"
+    "en_name": "suzaku",
+    "items": ["喷火器官"],
+    "partSkill": "炎之翼"
   },
   {
     "attack": { "hp": 125, "melee": 100, "shot": 105, "defence": 105 },
@@ -3046,7 +3308,9 @@
     "price": 10110,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "suzaku aqua"
+    "en_name": "suzaku aqua",
+    "items": ["帕鲁的体液"],
+    "partSkill": "水之翼"
   },
   {
     "attack": { "hp": 105, "melee": 120, "shot": 100, "defence": 100 },
@@ -3073,7 +3337,9 @@
     "price": 7720,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "grizzbolt"
+    "en_name": "grizzbolt",
+    "items": ["发电器官", "皮革"],
+    "partSkill": "黄色重型战车"
   },
   {
     "attack": { "hp": 110, "melee": 100, "shot": 110, "defence": 105 },
@@ -3099,7 +3365,9 @@
     "price": 7160,
     "captureMulti": 1,
     "malePercent": 30,
-    "en_name": "lyleen"
+    "en_name": "lyleen",
+    "items": ["低品质药品", "美丽花朵", "革新技术书"],
+    "partSkill": "丰饶女神"
   },
   {
     "attack": { "hp": 110, "melee": 100, "shot": 110, "defence": 115 },
@@ -3124,7 +3392,9 @@
     "price": 7610,
     "captureMulti": 1,
     "malePercent": 30,
-    "en_name": "lyleen noct"
+    "en_name": "lyleen noct",
+    "items": ["低品质药品", "美丽花朵", "革新技术书"],
+    "partSkill": "幽光女神"
   },
   {
     "attack": { "hp": 100, "melee": 100, "shot": 105, "defence": 110 },
@@ -3149,7 +3419,9 @@
     "price": 6720,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "faleris"
+    "en_name": "faleris",
+    "items": ["喷火器官"],
+    "partSkill": "灼热捕食者"
   },
   {
     "attack": { "hp": 100, "melee": 100, "shot": 130, "defence": 100 },
@@ -3174,7 +3446,9 @@
     "price": 8320,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "orserk"
+    "en_name": "orserk",
+    "items": ["发电器官"],
+    "partSkill": "凶猛的迅雷龙"
   },
   {
     "attack": { "hp": 120, "melee": 130, "shot": 120, "defence": 140 },
@@ -3196,7 +3470,9 @@
     "price": 9060,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "shadowbeak"
+    "en_name": "shadowbeak",
+    "items": ["帕鲁金属锭", "碳纤维", "革新技术书"],
+    "partSkill": "基因改造"
   },
   {
     "attack": { "hp": 130, "melee": 110, "shot": 120, "defence": 145 },
@@ -3221,7 +3497,9 @@
     "price": 8810,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "paladius"
+    "en_name": "paladius",
+    "items": ["帕鲁金属锭", "钻石"],
+    "partSkill": "天翔圣骑士"
   },
   {
     "attack": { "hp": 130, "melee": 100, "shot": 145, "defence": 120 },
@@ -3246,7 +3524,9 @@
     "price": 8930,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "necromus"
+    "en_name": "necromus",
+    "items": ["帕鲁金属锭", "大型帕鲁之魂"],
+    "partSkill": "深渊黑骑士"
   },
   {
     "attack": { "hp": 140, "melee": 100, "shot": 140, "defence": 120 },
@@ -3268,7 +3548,9 @@
     "price": 8440,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "frostallion"
+    "en_name": "frostallion",
+    "items": ["钻石", "结冰器官"],
+    "partSkill": "冰天马"
   },
   {
     "attack": { "hp": 140, "melee": 100, "shot": 140, "defence": 135 },
@@ -3290,7 +3572,9 @@
     "price": 8560,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "frostallion noct"
+    "en_name": "frostallion noct",
+    "items": ["纯水晶", "大型帕鲁之魂"],
+    "partSkill": "黑天马"
   },
   {
     "attack": { "hp": 110, "melee": 100, "shot": 140, "defence": 110 },
@@ -3312,6 +3596,8 @@
     "price": 8680,
     "captureMulti": 1,
     "malePercent": 50,
-    "en_name": "jetragon"
+    "en_name": "jetragon",
+    "items": ["钻石", "纯水晶", "聚合物", "碳纤维"],
+    "partSkill": "地毯式轰炸"
   }
 ]

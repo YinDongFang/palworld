@@ -1,14 +1,8 @@
 import React from 'react';
 
-const title = 'Static Data';
+const title = '帕鲁地图';
 
-export const metadata = {
-  title,
-  openGraph: {
-    title,
-    images: [`/api/og?title=${title}`],
-  },
-};
+export const metadata = { title };
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return children;

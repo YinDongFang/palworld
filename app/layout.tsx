@@ -27,12 +27,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="[color-scheme:dark]">
-      <body>
+    <html lang="en" className="h-full [color-scheme:dark]">
+      <body className="flex h-full flex-col">
         <GlobalNav />
-        <div className="absolute bottom-0 left-72 right-0 top-0">
-          {children}
-        </div>
+        <div className="min-h-0 grow overflow-y-auto">{children}</div>
       </body>
     </html>
   );
