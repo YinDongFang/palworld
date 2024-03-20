@@ -1,4 +1,4 @@
-import { logs, status } from '#/app/connect';
+const { logs, status } = require('#/app/connect');
 
 export default async function Page({ params }: { params: { id: string } }) {
   const statusValue = status();

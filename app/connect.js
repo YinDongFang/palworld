@@ -726,12 +726,12 @@ initialize();
 //   await initialize();
 // }
 
-// module.exports = {
-//   logs: () => logs,
-//   status: () => storage[STATUS_KEY],
-// }
-
-export default {
+module.exports = {
   logs: () => logs,
-  status: () => storage[STATUS_KEY]
+  status: () => storage[STATUS_KEY],
 }
+
+// export default {
+//   logs: () => logs,
+//   status: () => storage[STATUS_KEY]
+// }
